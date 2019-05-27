@@ -26,7 +26,7 @@ class ContactUsPage extends Component {
         const message = document.getElementById('message').value;
         axios({
             method: "POST",
-            url: "http://localhost:5000/api/contact-us",
+            url: process.env.BASE_URL+"/api/contact-us",
             data: {
                 name: name,
                 email: email,
