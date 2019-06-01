@@ -56,7 +56,10 @@ p{
   font-size: 14px;
 }
 
-
+#main-amp{
+  color: white;
+  text-decoration: none;
+}
 
 h2{
   font-size: 19px;

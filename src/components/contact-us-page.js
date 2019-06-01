@@ -18,7 +18,7 @@ class ContactUsPage extends Component {
         };
     }
 
-    handleSubmit(e) {
+    handleSubmit = (e) => {
         e.preventDefault();
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
@@ -26,19 +26,19 @@ class ContactUsPage extends Component {
         const message = document.getElementById('message').value;
         axios({
             method: "POST",
-            url: "localhost/posturl",
+            url: "http://localhost:5000/api/contact-us",
             data: {
                 name: name,
                 email: email,
-                messsage: message,
+                message: message,
                 contactWhoEmail: contactWhoEmail
             }
         }).then((response) => {
             if (response.data.msg === 'success') {
-                alert("Message Sent.");
+                // alert("Message Sent.");
                 this.resetForm()
             } else if (response.data.msg === 'fail') {
-                alert("Message failed to send.")
+                // alert("Message failed to send.")
             }
         })
     }
@@ -57,17 +57,17 @@ class ContactUsPage extends Component {
 
                 {/* <NavBar /> */}
 
-                <div className="p-wrapper">
+                {/* <div className="p-wrapper">
                     <p>
                         Lorem ipsum dolor amet cred yr pour-over banjo sriracha, artisan
                         church-key cronut bicycle rights. Fanny pack quinoa sustainable,
                         affogato unicorn cred tacos 8-bit keytar paleo hexagon. Normcore
                         wayfarers everyday kogi.
           </p>
-                </div>
+                </div> */}
 
                 <div className="orange-form">
-                    <form onSubmit={this.handleSubmit}>
+                    <form onSubmit={this.handleSubmit} id="contact-form">
                         <div className="fieldSet">
                             <label>CONTACT US- DROP DOWN TO SELECT SUBJECT</label>
                             <select id="contactWhoEmail">

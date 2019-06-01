@@ -25,9 +25,11 @@ class Header extends Component {
         </a>
         </span>
 
-        <h4>
-          ANA MARIA POLO
-        </h4>
+        <a id="main-amp" href="/"> 
+            <h4>
+              ANA MARIA POLO
+            </h4>
+        </a>
           
 
 
