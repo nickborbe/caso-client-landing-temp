@@ -67,19 +67,21 @@ class ContactUsPage extends Component {
                 </div>
 
                 <div className="orange-form">
-                    <form>
+                    <form onSubmit={this.handleSubmit}>
                         <div className="fieldSet">
                             <label>CONTACT US- DROP DOWN TO SELECT SUBJECT</label>
                             <select id="contactWhoEmail">
                                 <option value="fanMail">FAN MAIL</option>
-                                <option value="questionAnswer">QUESTION/ANSWER</option>
-                                <option value="contest">RE: CONTEST</option>
+                                <option value="LaDoctoraResponde">LA DOCTORA RESPONDE</option>
+                                <option value="prMail">PR MAIL</option>
+                                <option value="partnerships">BRAND PARTNERSHIPS</option>
+                                <option value="help">CUSTOMER SERVICE/HELP</option>
                             </select>
                         </div>
 
                         <div className="fieldSet">
                             <label>NAME</label>
-                            <input placeholder="John Doe" />
+                            <input id="name" placeholder="John Doe" />
                         </div>
 
                         <div className="fieldSet">
@@ -96,7 +98,7 @@ class ContactUsPage extends Component {
                     </form>
                 </div>
 
-                <section className="faq-section">
+                {/* <section className="faq-section">
                     <h2> FREQUENTLY ASKED QUESTIONS</h2>
 
                     <div
@@ -182,7 +184,7 @@ class ContactUsPage extends Component {
                             urna, eu mollis lacus suscipit nec. Donec at purus metus.
             </div>
                     )}
-                </section>
+                </section> */}
                 <Footer />
             </div>
         );
