@@ -20,7 +20,7 @@ class HomePage extends Component {
   render() {
     return (
 
-      <div>
+      <div id="the-main">
 
        
 
@@ -28,7 +28,7 @@ class HomePage extends Component {
 
         <VidCarousel />
 
-        <VideoSection />
+        {/* <VideoSection /> */}
 
         <SponsoredAd />
 

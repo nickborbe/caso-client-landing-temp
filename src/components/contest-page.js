@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 
-import '../styles/contests.css';
+import '../styles/contests.css'
 import '../styles/css/all.css'
 
 
 import SponsoredAd from './layout-components/sponsored-ad'
-
-
-
-
 
 
 class ConestPage extends Component {

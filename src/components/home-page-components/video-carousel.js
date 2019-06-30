@@ -42,6 +42,8 @@ class VidCarousel extends Component {
       render() {
        
         return (
+
+           
           <div className="vid-carousel-parent-div">
 
 
@@ -95,17 +97,19 @@ class VidCarousel extends Component {
                       this.scroll("right");
                     }}
                   />
+
                 </div>
     
               
     
                 {/* <div className="ads-div">
                   <img src="images/300x200.jpg" alt="" className="ad-left"></img>
-    
+                  
                   <img src="images/300x200.jpg" alt="" className="ad-right"></img>
                 </div> */}
               </div>
             </div>
+                <button id="see-all-vids-btn">See All</button>
           </div>
         );
       }
