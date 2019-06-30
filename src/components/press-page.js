@@ -5,19 +5,14 @@ import '../styles/press-page.css'
 
 
 
-import Header from './layout-components/header'
-import NavBar from './layout-components/navbar'
 
-
-import Footer from './layout-components/footer'
 
 class PressPage extends Component {
   render() {
     return (
       
       <div>
-      <Header/>
-      <NavBar/>
+
 
       <img src="/images/press-header.png" className="press-header"/>
 
@@ -117,7 +112,7 @@ class PressPage extends Component {
 
       </div>
       
-      <Footer/>
+   
 
       </div>
     );

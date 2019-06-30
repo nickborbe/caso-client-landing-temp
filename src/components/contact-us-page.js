@@ -53,9 +53,7 @@ class ContactUsPage extends Component {
     render() {
         return (
             <div>
-                <Header />
 
-                {/* <NavBar /> */}
 
                 {/* <div className="p-wrapper">
                     <p>
@@ -185,7 +183,6 @@ class ContactUsPage extends Component {
             </div>
                     )}
                 </section> */}
-                <Footer />
             </div>
         );
     }
