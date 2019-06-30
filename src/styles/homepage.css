@@ -340,6 +340,22 @@
 }
 
 
+.vid-carousel-parent-div{
+    margin-top: 75px;
+}
+
+.vid-carousel-parent-div iframe{
+    margin: 25px;
+}
+
+ #outer-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 
 
 

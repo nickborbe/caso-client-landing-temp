@@ -13,6 +13,7 @@ import NonProfitSection from './home-page-components/non-profit-section';
 
 import GalleryPreview from './home-page-components/gallery-preview'
 import JoinTheClub from './home-page-components/join-the-club'
+import VidCarousel from './home-page-components/video-carousel';
 
 
 class HomePage extends Component {
@@ -24,6 +25,8 @@ class HomePage extends Component {
        
 
         <div id="hp-main-image"></div>
+
+        <VidCarousel />
 
         <VideoSection />
 
