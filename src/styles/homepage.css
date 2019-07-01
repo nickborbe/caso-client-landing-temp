@@ -34,7 +34,7 @@
 
 #sponsored-hp-ad{
     height: 200px;
-    background-color: #3d3d3d;
+    background-color: transparent;
     color: #b7b7b7;
     display: flex;
     align-items: center;
@@ -53,7 +53,7 @@
 
 #contest-container{
     min-height: 700px;
-    background-color: #3d3d3d;
+    background-color: #363738;
     padding-top: 50px;
 }
 
@@ -75,7 +75,7 @@
 #hp-carousel-ads{
     height: 320px;
     width: 100%;
-    background-color: #3d3d3d;
+    background-color: #363738;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -117,6 +117,7 @@
 
 #hp-soc-med-section h2{
     margin: 50px 0;
+    color: white;
 }
 
 #non-prof-section{
@@ -367,7 +368,11 @@
 
 
 .vid-carousel-parent-div{
-    margin-top: 75px;
+    margin-top: -20px;
+    padding-top: 50px;
+    background-image: url('/images/top-curve.png');
+    background-size: 100%;
+    background-position: 0% 18%;
 }
 
 .vid-carousel-parent-div iframe{
@@ -387,7 +392,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       min-height: 5849px; */
-      background-color: #3d3d3d;
+      background-color: #363738;
   } 
 
 
