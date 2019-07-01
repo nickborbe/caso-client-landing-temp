@@ -44,7 +44,7 @@ class HomePage extends Component {
 
         <GalleryPreview />
 
-        <JoinTheClub />
+        {/* <JoinTheClub /> */}
 
 
       </div>

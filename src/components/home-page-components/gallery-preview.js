@@ -70,6 +70,28 @@ class GalleryPreview extends Component {
 
         </div>
         <button>View All</button>
+
+
+
+
+
+        <div id="join-the-club">
+
+          <div id="join-club-wrapper">
+
+
+            <h2>Join The Club!</h2>
+
+            <p className="hide-when-teeny-tiny">Lorem ipsum dolor amet cred yr pour-over banjo sriracha. Distillery yr +1, meh retro you probably haven't heard of them jean shorts lumbersexual wolf austin vape cliche irony cardigan, butcher tbh adaptogen sustainable flannel.</p>
+
+
+            <form>
+              <input placeholder="Email Address"></input>
+              <button>Subscribe</button>
+            </form>
+
+            </div>
+          </div>
   
         </section>
         
