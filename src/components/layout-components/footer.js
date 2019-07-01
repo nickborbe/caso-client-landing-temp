@@ -36,6 +36,7 @@ class Footer extends Component {
           <span>Twitter</span>
           </a>
         </div>
+
         <div>
 
           <a href="https://www.instagram.com/anapolotv/?hl=en" target="_blank" className="footer-social-link">  
@@ -44,9 +45,12 @@ class Footer extends Component {
           </a>
 
         </div>
+
         <div>
+          <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank" className="footer-social-link"> 
         <i className="fab fa-youtube"></i>
           <span>You Tube</span>
+          </a>
         </div>
         
         </div>

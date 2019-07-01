@@ -20,7 +20,7 @@ class Header extends Component {
         <a href="https://www.instagram.com/anapolotv/?hl=en" target="_blank">
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="">
+        <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank">
         <i className="fab fa-youtube"></i>
         </a>
         </span>
