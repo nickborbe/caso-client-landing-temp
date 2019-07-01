@@ -34,21 +34,47 @@
 
 #sponsored-hp-ad{
     height: 200px;
-    background-color: #515151;
+    background-color: #3d3d3d;
     color: #b7b7b7;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* ---------------------contest section----------------- */
 
 #contest-section{
-    background-image: url('/images/fake-contest-section.png');
-    height: 500px;
+    background-image: url('/images/amp-right.png');
+    height: 700px;
+    width: 60%;
+    background-position: 111% 0%;
     background-size: cover;
+    float: right;
 }
+
+#contest-container{
+    min-height: 700px;
+    background-color: #3d3d3d;
+    padding-top: 50px;
+}
+
+#contest-img{
+    background-color: #aaa;
+    height: 441px;
+    width: 592px;
+    display: inline-block;
+     position: relative;
+    top: 60px;
+    right: 65%; 
+}
+
+
+/* ---------------------end contest section----------------- */
+
+
 
 #hp-carousel-ads{
     height: 320px;
+    width: 100%;
     background-color: #3d3d3d;
     display: flex;
     justify-content: space-around;
@@ -133,7 +159,7 @@
 
 #hp-sponsored-add-bottom{
     height: 200px;
-    background-color: #515151;
+    background-color: #3d3d3d;
     color: #b7b7b7;
     display: flex;
     align-items: center;
@@ -356,12 +382,14 @@
   }
 
 
-  /* #the-main{
-      background-image: url('/images/HOME.png');
+   #the-main{ 
+      /* background-image: url('/images/HOME.png');
       background-size: cover;
       background-repeat: no-repeat;
-      min-height: 5849px;
-  } */
+      min-height: 5849px; */
+      background-color: #3d3d3d;
+  } 
+
 
 
 

@@ -11,23 +11,22 @@ class ContestSection extends Component {
   render() {
       return(
 
-        <section id="contest-section">
+        <div id='contest-container'>
 
-        {/* <div class="left-side">
 
-        <h2>Latest Constest!</h2>
+          <section id="contest-section">
+            <div id="contest-img"> </div>
+          </section>
 
-        <p>some info about the contest</p>
+     
 
-        <button>Enter Constest</button>
-        </div> */}
 
-        {/* <div class="right-side">
-        <img src="#"></img>
-        </div> */}
 
-        </section>
+
+
+
         
+       </div>
       )
   }
 }

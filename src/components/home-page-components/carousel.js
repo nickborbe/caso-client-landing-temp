@@ -41,6 +41,9 @@ class Carousel extends Component {
   render() {
       return(
 
+       
+
+
 
         <div id="hp-carousel-ads">
 
@@ -56,6 +59,7 @@ class Carousel extends Component {
 
         </div>
         
+       
       )
   }
 }
