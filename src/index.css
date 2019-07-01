@@ -123,12 +123,13 @@ i{
 }
 
 #the-footer{
-  padding: 0 150px 0 25px;
+  padding: 30px 100px 30px 25px;
   background-color: black;
   height: 200px;
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #the-footer a{
@@ -144,6 +145,7 @@ i{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .column i{
@@ -157,15 +159,33 @@ i{
 #footer-img-contain{
   display: flex;
   align-items: center;
+  background-image: url("/images/actual-footer-logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0% 50%;
+  margin-top: 50px;
+  width: 300px;
+  text-align: center;
+}
+
+#footer-img-contain > h4{
+  font-size: 12px;
+  margin: 70px auto;
+}
+
+#the-footer h6{
+  font-size: 8px;
 }
 
 #the-footer input{
   background-color: transparent;
   border: 1px solid white;
   color: white;
-  width: 50%;
-  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
   padding: 5px 10px;
+  box-sizing: border-box;
 }
 
 
@@ -174,10 +194,20 @@ i{
   background-color: white;
   color: black;
   width: 50px;
+  height: 40px;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 3px;
+  margin: 0px;
 }
 
 .fab{
   width: 25px;
+}
+
+#the-footer form{
+  text-align: left;
+}
+
+#the-footer form h6{
+  margin: 10px 0;
 }

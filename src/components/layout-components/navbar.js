@@ -19,7 +19,8 @@ class NavBar extends Component {
         
         <a href="#">VIDEOS</a>
         <a href="#">SHOP</a>
-        <a href="/contact">CONTACT</a>
+        <Link to="/press">PRESS</Link>
+        <Link to="/contact">CONTACT</Link>
       </nav>
         
       )

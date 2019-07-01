@@ -14,7 +14,8 @@ class Footer extends Component {
         <footer id="the-footer">
 
         <div className="hide-when-small" id="footer-img-contain">
-        <img src="/images/name-and-sig.png"></img>
+
+          <h4> ANA MARIA POLO</h4>
           
         </div>
 
