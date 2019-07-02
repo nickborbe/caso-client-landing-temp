@@ -36,16 +36,16 @@ class HomePage extends Component {
 
         <Carousel />
 
-        <SocialMediaSection />
+        {/* <SocialMediaSection /> */}
 
         <NonProfitSection />
 
+
+        {/* <GalleryPreview /> */}
+
+        <JoinTheClub />
+
         <SponsoredAd />
-
-        <GalleryPreview />
-
-        {/* <JoinTheClub /> */}
-
 
       </div>
     );

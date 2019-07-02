@@ -46,11 +46,6 @@ class VidCarousel extends Component {
            
           <div className="vid-carousel-parent-div">
 
-
-            <h2 id="latest-vid-h2">Latest Featured Videos</h2>
-
-
-
             <div className="mailchimp wrapper">
               <div className="box">
                 <div id="outer-carousel">
@@ -71,7 +66,7 @@ class VidCarousel extends Component {
                       src={this.state.images[0]}
                     />
     
-                    <iframe
+                    {/* <iframe
                       title="two"
                       id="imageTwo"
                       frameBorder="0"
@@ -79,7 +74,7 @@ class VidCarousel extends Component {
                       height="300"
                       width="300"
                       src={this.state.images[1]}
-                    />
+                    /> */}
     
                     <iframe
                       title="three"
@@ -109,7 +104,10 @@ class VidCarousel extends Component {
                 </div> */}
               </div>
             </div>
+            <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank">
                 <button id="see-all-vids-btn">See All</button>
+            </a>
+
           </div>
         );
       }

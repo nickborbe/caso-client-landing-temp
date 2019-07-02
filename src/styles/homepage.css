@@ -33,7 +33,7 @@
 }
 
 #sponsored-hp-ad{
-    height: 200px;
+    height: 150px;
     background-color: transparent;
     color: #b7b7b7;
     display: flex;
@@ -350,13 +350,19 @@
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- gallery preview stuff end =-=-=-=-=-=-=-=-=- */
 
 #join-the-club{
-    height: 280px;
-    background-color: transparent;
+    height: 480px;
+    padding-top: 120px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    background-image: url('/images/join-club-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -90px;
+    box-sizing: border-box;
+
 }
 
 #join-club-wrapper{
@@ -368,6 +374,7 @@
 
 #join-club-wrapper h2{
     margin: 15px 0;
+    font-size: 24px;
 }
 
 #join-club-wrapper p{
@@ -390,7 +397,7 @@
     height: 40px;
     border-radius: 5px;
     padding: 0 10px;
-    margin: 10px;
+    margin: 5px;
 }
 
 #join-club-wrapper button{
@@ -401,6 +408,7 @@
     height: 40px;
     padding: 5px 10px;
     border-radius: 5px;
+    margin: 5px;
     
 
 }
@@ -409,6 +417,7 @@
 .vid-carousel-parent-div{
     margin-top: -20px;
     padding-top: 50px;
+    padding-bottom: 200px;
     background-image: url('/images/top-curve.png');
     background-size: 100%;
     background-position: 0% 18%;
@@ -416,6 +425,7 @@
 
 .vid-carousel-parent-div iframe{
     margin: 25px;
+    width: 440px;
 }
 
  #outer-carousel {
