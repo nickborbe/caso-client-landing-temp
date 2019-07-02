@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
 import '../styles/css/all.css'
 
 import '../styles/contests.css'
@@ -7,8 +9,12 @@ import '../styles/contests.css'
 import SponsoredAd from './layout-components/sponsored-ad'
 
 
+
+
+
 class ConestPage extends Component {
   render() {
+
     return (
 
       <div>
@@ -53,7 +59,7 @@ class ConestPage extends Component {
 
         <div className="row">
 
-        <div id="facebook-div" className="fb-page fb-column" data-href="https://www.facebook.com/AnaMariaPolo/" data-tabs="timeline" data-width="275" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnaMariaPolo/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnaMariaPolo/">Ana Maria Polo</a></blockquote></div>
+        <div id="facebook-div" className="fb-page fb-column" data-href="https://www.facebook.com/AnaMariaPolo/" data-tabs="timeline" data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnaMariaPolo/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnaMariaPolo/">Ana Maria Polo</a></blockquote></div>
 
         {/* <div class="fb-column">
           <div class="fb-thumb"></div>
@@ -62,21 +68,27 @@ class ConestPage extends Component {
           <div class="fb-thumb"></div>
         </div> */}
 
+
+       
+
+                    
         
-        <div className="insta-column">
-          <div className="insta-thumb"></div>
-          <div className="insta-thumb"></div>
-          <div className="insta-thumb"></div>
-          <div className="insta-thumb"></div>
-        </div>
 
 
-        <div className="twitter-column">
-          <div className="twitter-thumb"></div>
-          <div className="twitter-thumb"></div>
-          <div className="twitter-thumb"></div>
-          <div className="twitter-thumb"></div>
-        </div>
+        {/* <a className="twitter-timeline" data-width="250" data-height="700" href="https://twitter.com/AnaPoloTV?ref_src=twsrc%5Etfw">Tweets by AnaPoloTV</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> */}
+
+
+      
+
+          <TwitterTimelineEmbed
+            sourceType="profile"
+            screenName="anapolotv"
+            options={{height: 700, width: 300}}
+            />
+         
+
+
+       
 
 
         </div>
