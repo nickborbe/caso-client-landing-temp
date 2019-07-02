@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 487px;
+    margin-bottom:0;
 }
 
 #contest-image{
@@ -39,15 +40,21 @@
     margin: 10px 0;
 }
 
+.bg-swerve{
+    background: url('/images/contest-swerve.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 #be-the-first-to-know-section{
     height: 220px;
-    background-color: #222;
+    /* background-color: #222; */
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 40px 0;
 }
 #be-the-first-to-know-section p{
     width: 45%;
@@ -108,6 +115,7 @@
     display: flex;
     justify-content: space-around;
     margin: 50px 0;
+    margin: 100px 10%;
 }
 
 #facebook-div{
@@ -122,6 +130,7 @@
     overflow: scroll;
     margin: 20px 50px;
     height: 700px;
+    border-radius: 2px;
 }
 
 .fb-thumb, .insta-thumb, .twitter-thumb{
