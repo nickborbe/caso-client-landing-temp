@@ -81,6 +81,10 @@ i{
   padding: 0 45px;
 }
 
+#hp-header h1{
+  font-size: 22px;
+}
+
 .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-user, .fa-shopping-cart{
   color: white;
 }
