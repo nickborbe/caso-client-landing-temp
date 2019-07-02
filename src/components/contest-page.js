@@ -17,7 +17,7 @@ class ConestPage extends Component {
         <img src="/images/nonprofit-section.png" id="contest-image" className="hide-when-tiny" />
 
         <div id="contest-right-side">
-        <h2>This Would Be The Contest Image</h2>
+        <h2>Contest Information</h2>
         <p>Lorem ipsum dolor amet cred yr pour-over banjo sriracha, artisan church-key cronut bicycle rights. Fanny pack quinoa sustainable, affogato unicorn cred tacos 8-bit keytar paleo hexagon. Normcore wayfarers everyday kogi. Mlkshk pug artisan cliche XOXO, vexillologist gochujang quinoa shoreditch affogato cold-pressed four loko messenger bag try-hard. Distillery yr +1, meh retro you probably haven't heard of them jean shorts lumbersexual wolf austin vape cliche irony cardigan, butcher tbh adaptogen sustainable flannel.</p>
         <button>Register</button>
         </div>
@@ -47,12 +47,14 @@ class ConestPage extends Component {
 
         <div class="row">
 
-        <div class="fb-column">
+        <div id="facebook-div" className="fb-page fb-column" data-href="https://www.facebook.com/AnaMariaPolo/" data-tabs="timeline" data-width="275" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnaMariaPolo/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnaMariaPolo/">Ana Maria Polo</a></blockquote></div>
+
+        {/* <div class="fb-column">
           <div class="fb-thumb"></div>
           <div class="fb-thumb"></div>
           <div class="fb-thumb"></div>
           <div class="fb-thumb"></div>
-        </div>
+        </div> */}
 
         
         <div class="insta-column">

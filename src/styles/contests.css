@@ -11,7 +11,7 @@
 }
 
 #contest-right-side{
-    padding: 2% 10%;
+    padding: 2% 5%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -20,11 +20,13 @@
 
 #contest-right-side h2{
     color: white;
+   width: 250px;
    
 }
 
 #contest-right-side p{
     font-size: 12px;
+    margin: 10px 0;
 }
 
 #contest-right-side button{
@@ -34,6 +36,7 @@
     width: 200px;
     padding: 10px;
     border-radius: 4px;
+    margin: 10px 0;
 }
 
 #be-the-first-to-know-section{
@@ -44,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
 }
 #be-the-first-to-know-section p{
     width: 45%;
@@ -58,7 +62,8 @@
 
 #be-the-first-to-know-section form{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -70,15 +75,19 @@
     border-radius: 5px;
     padding: 0 10px;
     margin: 0 5px;
+    height: 35px;
+    box-sizing: border-box;
 }
 
 #be-the-first-to-know-section button{
-
+    height: 35px;
     background-color: white;
     color: black;
     width: 100px;
     padding: 5px 10px;
     border-radius: 5px;
+    margin: 0 5px;
+    box-sizing: border-box;
 }
 
 
@@ -101,11 +110,18 @@
     margin: 50px 0;
 }
 
+#facebook-div{
+    margin: 20px;
+    width: 240px;
+    height: 700px;
+}
+
 
 .fb-column, .insta-column, .twitter-column{
     height: 900px;
     overflow: scroll;
-    margin: 20px;
+    margin: 20px 50px;
+    height: 700px;
 }
 
 .fb-thumb, .insta-thumb, .twitter-thumb{
@@ -113,13 +129,11 @@
     height: 280px;
     
     background-size: cover;
-    margin: 20px;
+    /* margin: 20px; */
     border: 1px solid black;
 }
 
-.fb-thumb{
-    background-image: url("/images/fake-fb.png");
-}
+
 
 .insta-thumb{
     background-image: url("/images/fake-insta.png"); 
