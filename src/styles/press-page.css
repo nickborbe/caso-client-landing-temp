@@ -27,4 +27,18 @@
     height: 200px;
     width: 200px;
   }
+
+  #press-top{
+    height: 450px;
+    background: url('/images/press-top-bg.png');
+    background-size: cover;
+  }
+
+  #press-bottom{
+    height: 450px;
+    background: url('/images/press-bottom-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 5%;
+  }
   

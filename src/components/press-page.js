@@ -13,8 +13,10 @@ class PressPage extends Component {
       
       <div>
 
+        <div id="press-top"></div>
 
-      <img src="/images/press-header.png" className="press-header"/>
+
+      {/* <img src="/images/press-header.png" className="press-header"/> */}
 
       <div className="press-section">
       <h2 id="">PRESS</h2>
@@ -112,6 +114,8 @@ class PressPage extends Component {
 
       </div>
       
+
+      <div id="press-bottom"></div>
    
 
       </div>
