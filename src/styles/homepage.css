@@ -34,7 +34,7 @@
 
 #sponsored-hp-ad{
     height: 150px;
-    background-color: #b7b7b7;
+    background-color: #363738;
     color: #b7b7b7;
     display: flex;
     align-items: center;
@@ -42,21 +42,38 @@
 }
 /* ---------------------contest section----------------- */
 
-#contest-section{
+.contest-section{
     background-image: url('/images/amp-right.png');
-    height: 750px;
+    min-height: 750px;
     width: 60%;
     background-position: 111% 0%;
     background-size: cover;
     float: right;
-    padding: 135px 0 0px 120px;
+    padding: 150px 0 0px 13%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
 }
 
-#contest-section p{
+#contest-section-right-side button{
+    margin: 10px 0;
+}  
+#contest-section-right-side h2{
+    color: white;
+}
+
+#contest-section-right-side{
+    /* padding: 2% 35% 2% 80px; */
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.contest-section p{
     width: 80%;
+    margin: 10px 0;
+    line-height: 2em;
 }
 
 #contest-container{
@@ -65,12 +82,12 @@
     padding-top: 50px;
 }
 
-#contest-img{
+.contest-img{
     background-color: #aaa;
     height: 441px;
-    width: 592px;
+    width: 40%;
     display: inline-block;
-   margin: 85px -250px 0 0;
+   margin: 85px -15% 0 0;
   
 }
 
@@ -412,7 +429,7 @@
 .vid-carousel-parent-div{
     margin-top: -20px;
     padding-top: 100px;
-    padding-bottom: 160px;
+    padding-bottom: 200px;
     background-image: url('/images/top-curve.png');
     background-size: 100%;
     background-position: 0% 18%;
@@ -451,6 +468,14 @@
     .hide-when-small{
         display: none !important;
     }
+    .shrink-when-small{
+        width: 34%;
+    }
+    .contest-section{
+        padding-top: 100px;
+        padding-left: 75px;
+    }
+
 }
 
 
@@ -458,10 +483,26 @@
     .hide-when-tiny{
         display: none !important;
     }
+
+    .grow-when-tiny{
+        width: 80%;
+    }
+    .shrink-when-tiny{
+        width: 20%;
+    }
+    .contest-section{
+        padding-top: 15%;
+        padding-left: 20%;
+    }
+    .contest-section p{
+        line-height: 1.5em;
+    }
+
 }
 
 @Media only screen and (max-width: 700px){
     .hide-when-teeny-tiny{
         display: none !important;
     }
-}
+  }
+
