@@ -14,10 +14,10 @@ class NavBar extends Component {
       return(
 
         <nav className="hp-navbar">
-        <a href="#">ABOUT</a>
+        {/* <a href="#">ABOUT</a> */}
         <a href='/contest'> CONTESTS </a>
         
-        <a href="#">VIDEOS</a>
+        {/* <a href="#">VIDEOS</a> */}
         <a href="#">SHOP</a>
         <a href="/press">PRESS</a>
         <a href="/contact">CONTACT</a>

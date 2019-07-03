@@ -159,7 +159,7 @@
 }
 
 
-#non-prof-left-side{
+.non-prof-left-side{
     height: 100%;
     background-color: #caa453;
     padding: 20px 0 10px 13%;
@@ -474,6 +474,9 @@
     .contest-section{
         padding-top: 100px;
         padding-left: 75px;
+    }
+    .grow-when-small{
+        width: 100%;
     }
 
 }
