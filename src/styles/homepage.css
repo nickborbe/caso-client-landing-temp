@@ -507,5 +507,11 @@
     .hide-when-teeny-tiny{
         display: none !important;
     }
+
+    .vid-carousel-parent-div iframe{
+        margin: 10px;
+        width: 350px;
+    }
+    
   }
 
