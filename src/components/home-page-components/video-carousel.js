@@ -70,7 +70,7 @@ class VidCarousel extends Component {
                       title="two"
                       id="imageTwo"
                       frameBorder="0"
-                      className="video hide-when-tiny"
+                      className="video"
                       height="300"
                       width="300"
                       src={this.state.images[1]}
