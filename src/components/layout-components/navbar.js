@@ -14,7 +14,7 @@ class NavBar extends Component {
       return(
 
         <nav className="hp-navbar">
-        <Link to='/contest'> CONTESTS </Link>
+        <a href='/contest'> CONTESTS </a>
         
         <Link to="#">SHOP</Link>
         <Link to="/press">PRESS</Link>
