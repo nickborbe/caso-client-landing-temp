@@ -12,7 +12,7 @@ class Carousel extends Component {
     constructor(props){
         super(props)
         this.state = {
-            images: ["/images/carousel-2.png", "/images/carousel-3.png", "/images/carousel-1.png", "/images/carousel-3.png", "/images/carousel-2.png"],
+            images: ["/images/carousel-2.png", "/images/carousel-3.png", "/images/carousel-1.png"],
             temp: "",
            
         }
@@ -51,7 +51,7 @@ class Carousel extends Component {
 
         <img src={this.state.images[0]} />
 
-        <img src={this.state.images[1]} />
+        <img className="hide-when-tiny" src={this.state.images[1]} />
 
         <img className="hide-when-small" src={this.state.images[2]} />
 

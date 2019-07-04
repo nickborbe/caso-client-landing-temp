@@ -79,6 +79,7 @@ class ConestPage extends Component {
 
 
       
+        <div className="hide-when-tiny">
 
           <TwitterTimelineEmbed
             sourceType="profile"
@@ -86,6 +87,7 @@ class ConestPage extends Component {
             options={{height: 700, width: 300}}
             />
 
+        </div>
         {/* <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'24sU2DfopScvt4l2FQ61'});Pixlee.addSimpleWidget({widgetId:'19582'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script> */}
          
 
