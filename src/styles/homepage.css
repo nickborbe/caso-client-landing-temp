@@ -34,12 +34,8 @@
 
 .sponsored-hp-ad{
     height: 150px;
-    /* background-color: #363738; */
     background: url('/images/omega-ad4.jpg');
-    /* color: #b7b7b7; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
 }
 /* ---------------------contest section----------------- */
 
@@ -500,6 +496,11 @@
     }
     .contest-section p{
         line-height: 1.5em;
+    }
+    .sponsored-hp-ad{
+        height: 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
 }
