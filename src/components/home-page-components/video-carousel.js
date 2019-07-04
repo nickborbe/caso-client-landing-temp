@@ -56,7 +56,7 @@ class VidCarousel extends Component {
                     }}
                   />
                   <div id="carousel">
-                    <iframe
+                    {/* <iframe
                       title="one"
                       id="imageOne"
                       frameBorder="0"
@@ -64,9 +64,9 @@ class VidCarousel extends Component {
                       height="300"
                       width="300"
                       src={this.state.images[0]}
-                    />
+                    /> */}
     
-                    {/* <iframe
+                    <iframe
                       title="two"
                       id="imageTwo"
                       frameBorder="0"
@@ -74,7 +74,7 @@ class VidCarousel extends Component {
                       height="300"
                       width="300"
                       src={this.state.images[1]}
-                    /> */}
+                    />
     
                     <iframe
                       title="three"

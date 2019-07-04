@@ -11,9 +11,8 @@ class SponsoredAd extends Component {
   render() {
       return(
 
-        <div id="sponsored-hp-ad">
-        Sponsored Ad Goes Here
-        </div>
+        <a className="sponsored-hp-ad" href="https://www.omegaxl.com/es/?utm_source=anamariapolo.tv&utm_medium=referral&utm_campaign=anamariapolo.tv&utm_term=1440.25x239.19">
+        </a>
         
       )
   }

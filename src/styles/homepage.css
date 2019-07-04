@@ -32,10 +32,11 @@
     border-radius: 4px;
 }
 
-#sponsored-hp-ad{
+.sponsored-hp-ad{
     height: 150px;
-    background-color: #363738;
-    color: #b7b7b7;
+    /* background-color: #363738; */
+    background: url('/images/ads/omega-ad4.jpg');
+    /* color: #b7b7b7; */
     display: flex;
     align-items: center;
     justify-content: center;
