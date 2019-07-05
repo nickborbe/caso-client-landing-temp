@@ -18,7 +18,9 @@ class VidCarousel extends Component {
             "https://www.youtube.com/embed/8d0fJpilYPk?ecver=2&enablejsapi=1",
             "https://www.youtube.com/embed/JZ36vXjK8Dc?ecver=2&enablejsapi=1"
           ],
-          temp: ""
+          temp: "",
+          slidingLeft: false,
+          slidingRight: false,
         };
       }
 
@@ -26,11 +28,23 @@ class VidCarousel extends Component {
         const tempArray = this.state.images.slice();
         let source = "";
         if (direction === "right") {
+
+          // this.setState({slidingLeft: true})
+          // setTimeout(()=>{
+          //   this.setState({slidingLeft: false})
+          // }, 1500)
+        
           source = this.state.images[0];
           tempArray.shift();
           tempArray.push(source);
           this.setState({ temp: source, images: tempArray });
         } else {
+
+          // this.setState({slidingRight: true})
+          // setTimeout(()=>{
+          //   this.setState({slidingRight: false})
+          // }, 1500)
+
           source = this.state.images[this.state.images.length - 1];
           tempArray.pop();
           tempArray.unshift(source);
@@ -40,6 +54,8 @@ class VidCarousel extends Component {
 
 
       render() {
+
+        console.log(this.state)
        
         return (
 
@@ -56,21 +72,12 @@ class VidCarousel extends Component {
                     }}
                   />
                   <div id="carousel">
-                    {/* <iframe
-                      title="one"
-                      id="imageOne"
-                      frameBorder="0"
-                      className="video"
-                      height="300"
-                      width="300"
-                      src={this.state.images[0]}
-                    /> */}
     
                     <iframe
                       title="two"
                       id="imageTwo"
                       frameBorder="0"
-                      className="video"
+                      className={this.state.slidingRight? 'slideRight video2': 'video2'}
                       height="300"
                       width="300"
                       src={this.state.images[1]}
@@ -80,7 +87,7 @@ class VidCarousel extends Component {
                       title="three"
                       id="imageThree"
                       frameBorder="0"
-                      className="video hide-when-small"
+                      className={this.state.slidingLeft? 'slideLeft video3 hide-when-small ' : 'video3 hide-when-small '}
                       height="300"
                       width="300"
                       src={this.state.images[2]}

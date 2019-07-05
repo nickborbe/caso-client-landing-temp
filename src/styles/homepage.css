@@ -435,6 +435,15 @@
 .vid-carousel-parent-div iframe{
     margin: 25px;
     width: 440px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.video2{
+    left:0;
+}
+.video3{
+    right:0;
 }
 
  #outer-carousel {
@@ -446,13 +455,19 @@
 
 
    #the-main{ 
-      /* background-image: url('/images/HOME.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      min-height: 5849px; */
       background-color: #363738;
   } 
 
+
+  .slideRight{
+    left: 480px;
+    transition: left 0.75s;
+  } 
+
+  .slideLeft{
+      right: 480px;
+      transition: right 0.75s;
+  }
 
 
 
@@ -502,6 +517,10 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .vid-carousel-parent-div{
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
 
 }
 
@@ -513,6 +532,17 @@
     .vid-carousel-parent-div iframe{
         margin: 10px;
         width: 300px;
+    }
+    .sponsored-hp-ad{
+        height: 90px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .vid-carousel-parent-div{
+        padding-bottom: 0;
+        padding-top: 40px;
+        background-size: cover;
     }
     
   }
