@@ -16,6 +16,7 @@ import PressPage from "./components/press-page";
 import NavBar from './components/layout-components/navbar';
 import Footer from './components/layout-components/footer'
 import Header from './components/layout-components/header'
+import HamburgerNav from "./components/layout-components/hamburger-nav";
 
 
 
@@ -26,17 +27,20 @@ class App extends Component {
 
 
     <Header/>
+
     <NavBar/>
 
+    <HamburgerNav/>
 
-        <Switch>
-          {/* <Route exact path="/" component={LandingPage} /> */}
-          {/* <Route exact path='/signup' render={() => <Signup  {...this.props} setTheUserInTheAppComponent={this.logMeIn}/>}/> */}
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/contest" component={ContestPage} /> 
-          <Route exact path="/contact" component={ContactUsPage} />
-          <Route exact path="/press" component={PressPage} />
-        </Switch>
+
+    <Switch>
+      {/* <Route exact path="/" component={LandingPage} /> */}
+      {/* <Route exact path='/signup' render={() => <Signup  {...this.props} setTheUserInTheAppComponent={this.logMeIn}/>}/> */}
+      <Route exact path="/" component={HomePage} />
+      <Route exact path="/contest" component={ContestPage} /> 
+      <Route exact path="/contact" component={ContactUsPage} />
+      <Route exact path="/press" component={PressPage} />
+    </Switch>
 
       <Footer/>
 

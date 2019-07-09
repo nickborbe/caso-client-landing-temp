@@ -91,14 +91,75 @@ i{
   }
 
 .hp-navbar{
+  display: none !important;
+} 
+
+.hamburger-nav{
+  background-color: #fffef2;
+  min-height: 60px;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
 }
+
+.hamburger-nav .burger-icon {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hamburger-nav i{
+  margin: 2%;
+}
+
+.hamburger-nav a{
+  color: black;
+  text-decoration: none;
+}
+
+.burgerDisplayNone {
+  color: black;
+  text-decoration: none;
+  display: none;
+  margin: 5% auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.burgerDisplay {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  margin: 5% auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+ 
+
+}
+
+@Media only screen and (min-width: 701px){
+
+
+.hamburger-nav{
+  display: none !important;
+} 
  
 
 }
 
 .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-user, .fa-shopping-cart{
   color: white;
+}
+
+.fa-bars{
+  color: black;
 }
 
 .hp-header-left-icons{
@@ -132,6 +193,8 @@ i{
   color: black;
   text-decoration: none;
 }
+
+
 
 ::placeholder{
   color: white;
