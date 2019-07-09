@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
@@ -8,12 +8,67 @@ import '../styles/contests.css'
 
 import SponsoredAd from './layout-components/sponsored-ad'
 
+import { buildUrl } from 'react-instafeed'
+ 
+// 🔥️ These are in your code (not this repo)
+import useAbortableFetch from '@hooks/useAbortableFetch'
+import Image from '@components/Image'
 
 
 
 
 class ConestPage extends Component {
   render() {
+
+
+
+    const options = {
+      accessToken: '2b4be16e2a3249e8a75a76cbdecf5eb1',
+      clientId: 'd03d9e5ca9554718b549a1315d6141da',
+      get: 'user', // popular, user
+      locationId: null,
+      resolution: 'standard_resolution', // thumbnail, low_resolution, standard_resolution
+      sortBy: 'most-recent', // none, least-commented, least-liked, least-recent, most-commented, most-liked, most-recent, random
+      tagName: null,
+      userId: 'anapolotv'
+    }
+
+    const Instagram = () => {
+      console.log("ahhhhh")
+      const { json, loading, error, abort } = useAbortableFetch(buildUrl(options))
+      if (loading) return 'Loading...'
+      if (error) return `Error: ${error}`
+      if (!json) return null
+     
+      const { data, meta, pagination } = json
+     
+      return (
+        <Fragment>
+          {// eslint-disable-next-line no-unused-vars
+          data &&
+            data.map(({ caption, id, images, tags }, index) => {
+              const image = images[options.resolution]
+              return (
+                  <Image
+                    key={index}
+                    url={image.url}
+                    title={caption.text}
+                    caption={caption.text}
+                    width={image.width}
+                    height={image.height}
+                  />
+                // </div>
+              )
+            })}
+        </Fragment>
+      )
+    }
+
+
+
+
+
+
 
     return (
 
@@ -61,23 +116,6 @@ class ConestPage extends Component {
 
         <div id="facebook-div" className="fb-page fb-column" data-href="https://www.facebook.com/AnaMariaPolo/" data-tabs="timeline" data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnaMariaPolo/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnaMariaPolo/">Ana Maria Polo</a></blockquote></div>
 
-        {/* <div class="fb-column">
-          <div class="fb-thumb"></div>
-          <div class="fb-thumb"></div>
-          <div class="fb-thumb"></div>
-          <div class="fb-thumb"></div>
-        </div> */}
-
-
-       
-
-                    
-        
-
-
-        {/* <a className="twitter-timeline" data-width="250" data-height="700" href="https://twitter.com/AnaPoloTV?ref_src=twsrc%5Etfw">Tweets by AnaPoloTV</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> */}
-
-
       
         <div className="hide-when-tiny">
 
@@ -86,9 +124,13 @@ class ConestPage extends Component {
             screenName="anapolotv"
             options={{height: 700, width: 300}}
             />
-
         </div>
-        {/* <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'24sU2DfopScvt4l2FQ61'});Pixlee.addSimpleWidget({widgetId:'19582'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script> */}
+
+
+        <div className="blahTastic">
+          <h2>Hello</h2>
+        {Instagram()}
+        </div>
          
 
 
