@@ -11,8 +11,8 @@ import SponsoredAd from './layout-components/sponsored-ad'
 import { buildUrl } from 'react-instafeed'
  
 // 🔥️ These are in your code (not this repo)
-import useAbortableFetch from '@hooks/useAbortableFetch'
-import Image from '@components/Image'
+// import useAbortableFetch from '@hooks/useAbortableFetch'
+// import Image from '@components/Image'
 
 
 
@@ -33,36 +33,36 @@ class ConestPage extends Component {
       userId: 'anapolotv'
     }
 
-    const Instagram = () => {
-      console.log("ahhhhh")
-      const { json, loading, error, abort } = useAbortableFetch(buildUrl(options))
-      if (loading) return 'Loading...'
-      if (error) return `Error: ${error}`
-      if (!json) return null
+    // const Instagram = () => {
+    //   console.log("ahhhhh")
+    //   const { json, loading, error, abort } = useAbortableFetch(buildUrl(options))
+    //   if (loading) return 'Loading...'
+    //   if (error) return `Error: ${error}`
+    //   if (!json) return null
      
-      const { data, meta, pagination } = json
+    //   const { data, meta, pagination } = json
      
-      return (
-        <Fragment>
-          {// eslint-disable-next-line no-unused-vars
-          data &&
-            data.map(({ caption, id, images, tags }, index) => {
-              const image = images[options.resolution]
-              return (
-                  <Image
-                    key={index}
-                    url={image.url}
-                    title={caption.text}
-                    caption={caption.text}
-                    width={image.width}
-                    height={image.height}
-                  />
-                // </div>
-              )
-            })}
-        </Fragment>
-      )
-    }
+    //   return (
+    //     <Fragment>
+    //       {// eslint-disable-next-line no-unused-vars
+    //       data &&
+    //         data.map(({ caption, id, images, tags }, index) => {
+    //           const image = images[options.resolution]
+    //           return (
+    //               <Image
+    //                 key={index}
+    //                 url={image.url}
+    //                 title={caption.text}
+    //                 caption={caption.text}
+    //                 width={image.width}
+    //                 height={image.height}
+    //               />
+    //             // </div>
+    //           )
+    //         })}
+    //     </Fragment>
+    //   )
+    // }
 
 
 
@@ -127,10 +127,11 @@ class ConestPage extends Component {
         </div>
 
 
-        <div className="blahTastic">
+        {/* <div className="blahTastic">
           <h2>Hello</h2>
-        {Instagram()}
-        </div>
+        {/*  {Instagram()} */}
+        
+        {/* </div> */} 
          
 
 
