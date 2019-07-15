@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import jsonp from "jsonp";
 import toQueryString from "to-querystring";
 import SimpleForm from "./SimpleForm";
-import OtherForm from "./contact-us-mailchimp"
 
 
 

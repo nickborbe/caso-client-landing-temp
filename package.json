@@ -13,7 +13,9 @@
     "react-instafeed": "^1.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "react-slick": "^0.24.0",
     "react-twitter-embed": "^2.0.8",
+    "slick-carousel": "^1.8.1",
     "to-querystring": "^1.1.0"
   },
   "scripts": {
