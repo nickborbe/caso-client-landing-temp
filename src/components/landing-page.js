@@ -7,6 +7,8 @@ import "../styles/css/mailchimp.css";
 // import GithubCorner from "react-github-corner";
 
 import MailchimpSubscribe from "./mailchimp-subscribe/mailchimp-subscribe";
+const url =
+      "https://gmail.us20.list-manage.com/subscribe/post-json?u=500cf43f0dc12ed6d83d39375&amp;id=29e4bc9e01";
 
 class LandingPage extends Component {
   constructor(props) {

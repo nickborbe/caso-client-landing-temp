@@ -4,6 +4,8 @@ import "../../styles/css/all.css";
 import "../../styles/css/landing.css";
 import "../../styles/homepage.css"
 
+import SlickCarousel from '../new-carousel/slick-carousel';
+
 
 
 class VidCarousel extends Component {
@@ -64,7 +66,7 @@ class VidCarousel extends Component {
 
             <div className="mailchimp wrapper">
               <div className="box">
-                <div id="outer-carousel">
+                {/* <div id="outer-carousel">
                   <i
                     className="fas fa-arrow-left left"
                     onClick={() => {
@@ -100,7 +102,9 @@ class VidCarousel extends Component {
                     }}
                   />
 
-                </div>
+                </div> */}
+
+                <SlickCarousel/>
     
               
     
