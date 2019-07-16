@@ -504,6 +504,7 @@
 }
 
 
+
 @Media only screen and (max-width: 850px){
     .hide-when-tiny{
         display: none !important;
