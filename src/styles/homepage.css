@@ -501,6 +501,9 @@
         margin: 10px;
         width: 300px;
     }
+    #join-the-club{
+        padding-top: 0;
+    }
 
 }
 
