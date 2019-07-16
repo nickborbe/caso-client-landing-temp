@@ -35,6 +35,12 @@ class Header extends Component {
 
           <span className="hp-header-right-icons">
 
+          <button onClick = {this.props.changeLanguage}>
+          {this.props.language ==='spanish' && 'ENGLISH' }
+          {this.props.language ==='english' && 'ESPAÑOl' }
+          
+          </button>
+
           <i className="fas fa-user"></i>
           <i className="fas fa-shopping-cart"></i>
           </span>

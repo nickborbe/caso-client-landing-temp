@@ -32,13 +32,13 @@ class HomePage extends Component {
 
         <SponsoredAd />
 
-        <ContestSection />
+        <ContestSection language={this.props.language} />
 
         <Carousel />
 
         {/* <SocialMediaSection /> */}
 
-        <NonProfitSection />
+        <NonProfitSection language={this.props.language} />
 
 
         {/* <GalleryPreview /> */}
