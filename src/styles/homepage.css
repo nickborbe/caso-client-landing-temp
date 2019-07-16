@@ -543,6 +543,7 @@
     .hide-when-teeny-tiny{
         display: none !important;
     }
+  
 
     .vid-carousel-parent-div iframe{
         margin: 10px;
@@ -560,5 +561,11 @@
         background-size: cover;
     }
     
+  }
+
+  @Media only screen and (max-width: 600px){
+    .contest-section{
+        padding-top: 5px;
+    }
   }
 
