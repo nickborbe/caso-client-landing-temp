@@ -194,7 +194,13 @@ i{
   text-decoration: none;
 }
 
+.orange-form input{
+  font-size: 0.65em;
+}
 
+.orange-form textarea, select, option{
+  font-size: 1.1em;
+}
 
 ::placeholder{
   color: white;
