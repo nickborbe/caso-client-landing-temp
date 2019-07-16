@@ -10,22 +10,22 @@ class SlickCarousel extends Component {
     let settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
             dots: false
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 800,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
             dots: false
@@ -103,7 +103,7 @@ class SlickCarousel extends Component {
 
     let videoDivs = youtubeVideos.map(video => {
       return (
-        <div style={{width: "70%"}}>
+        <div className="carousel-iframe">
                 <iframe
                   title={video.title}
                   id={video.id}
