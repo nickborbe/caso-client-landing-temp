@@ -23,7 +23,7 @@ class SlickCarousel extends Component {
           }
         },
         {
-          breakpoint: 800,
+          breakpoint: 700,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -109,8 +109,7 @@ class SlickCarousel extends Component {
                   id={video.id}
                   frameBorder="0"
                   className="video"
-                  height="300"
-                  width="300"
+   
                   src={video.src}
                 />
                 </div>
