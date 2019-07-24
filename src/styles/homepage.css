@@ -62,7 +62,7 @@
 }
 
 #contest-section-right-side{
-    /* padding: 2% 35% 2% 80px; */
+    
     display: flex;
     flex-direction: column;
 
@@ -108,8 +108,8 @@
 }  
 
 #hp-carousel-ads img{
-    width: 350px;
-    height: 300px;
+    width: 31%;
+    height: 340px;
 }
 
 #hp-carousel-ads .fas{
@@ -440,8 +440,9 @@
 }
 
 .vid-carousel-parent-div iframe{
-    margin: 25px;
-    width: 440px;
+    margin: 25px 0;
+    width: 93%;
+    height: 350px;
     position: relative;
     border-radius: 3px;
 }
@@ -478,12 +479,19 @@
 
 
 
-
+@Media only screen and (max-width: 1275px){
+    #hp-carousel-ads img{
+        height: 300px;
+    }
+}
 
 
 
 
 @Media only screen and (max-width: 1100px){
+    #hp-carousel-ads img{
+        height: 225px;
+    }
     .hide-when-small{
         display: none !important;
     }
@@ -492,17 +500,22 @@
     }
     .contest-section{
         padding-top: 100px;
-        padding-left: 75px;
+        padding-left: 90px;
+        padding-right: 10px;
     }
     .grow-when-small{
         width: 100%;
     }
     .vid-carousel-parent-div iframe{
-        margin: 10px;
-        width: 300px;
+        margin: 0;
+        width: 88%;
+        height: 280px;
     }
     #join-the-club{
         padding-top: 0;
+    }
+    #hp-main-image{
+        height: 400px;
     }
 
 }
@@ -510,6 +523,23 @@
 
 
 @Media only screen and (max-width: 850px){
+    #hp-carousel-ads img{
+        height: 180px;
+    }
+    .contest-section{
+        height: 400px;
+        overflow: scroll; 
+    }
+    #contest-section-right-side{
+        height: 400px;
+        overflow: scroll; 
+    }
+    .contest-img{
+        width: 400px;
+        position: relative;
+        top: 50px;
+    }
+    
     .hide-when-tiny{
         display: none !important;
     }
@@ -536,10 +566,22 @@
         padding-bottom: 80px;
         padding-top: 80px;
     }
+    #hp-main-image{
+        height: 350px;
+    }
+    .vid-carousel-parent-div iframe{
+        margin: 0;
+        width: 88%;
+        height: 180px;
+    }
 
 }
 
 @Media only screen and (max-width: 700px){
+    #hp-carousel-ads img{
+        height: 350px;
+        width: 80%;
+    }
     .hide-when-teeny-tiny{
         display: none !important;
     }
@@ -560,12 +602,18 @@
         padding-top: 40px;
         background-size: cover;
     }
+    #hp-main-image{
+        height: 280px;
+    }
     
   }
 
   @Media only screen and (max-width: 600px){
     .contest-section{
         padding-top: 5px;
+    }
+    #hp-main-image{
+        height: 225px;
     }
   }
 
