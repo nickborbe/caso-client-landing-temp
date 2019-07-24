@@ -165,13 +165,10 @@
     height: 100%;
     background-color: #caa453;
     padding: 20px 0 10px 13%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: left;
     width: 50%;
     box-sizing: border-box;
-
+    overflow: scroll;
 }
 
 .non-prof-left-side h2{
@@ -483,12 +480,18 @@
     #hp-carousel-ads img{
         height: 300px;
     }
+    #non-prof-section{
+        height: 400px;
+    }
 }
 
 
 
 
 @Media only screen and (max-width: 1100px){
+    #non-prof-section{
+        height: 375px;
+    }
     #hp-carousel-ads img{
         height: 225px;
     }
@@ -523,6 +526,9 @@
 
 
 @Media only screen and (max-width: 850px){
+    #non-prof-section{
+        height: 320px;
+    }
     #hp-carousel-ads img{
         height: 180px;
     }
@@ -578,6 +584,31 @@
 }
 
 @Media only screen and (max-width: 700px){
+    #contest-section-right-side{
+        min-height: 250px;
+        height: 250px;
+        overflow: scroll; 
+    }
+    .contest-section{
+        min-height: 250px;
+    }
+    #contest-container{
+        min-height: 0;
+    }
+
+    .contest-img{
+        width: 220px;
+        position: relative;
+        top: -25px;
+    }
+    #non-prof-section{
+        height: 250px;
+    }
+    #nonprofimage{
+        height: 180px;
+        position: relative;
+        right: 20px;
+    }
     #hp-carousel-ads img{
         height: 350px;
         width: 80%;

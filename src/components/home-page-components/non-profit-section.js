@@ -15,7 +15,7 @@ class NonProfitSection extends Component {
         <section id="non-prof-section">
 
         {this.props.language === 'english' && 
-            <div className="grow-when-small non-prof-left-side" >
+            <div className="non-prof-left-side" >
               <h2>Ana Maria Polo is giving back to the Humane Society for all the work they do!</h2>
               <p>A life-long pet and animal lover, with five dogs of her own, Ana Maria Polo sought a philanthropic organization that aligns with her beliefs. The Humane Society, an American nonprofit organization, fights all forms of animal cruelty by taking on puppy mills, factory farms, trophy hunts, animal testing, and other cruel industries to achieve a humane society. Find out how Ana Maria Polo is doing her part to give back.</p>
               <button>Donate Today</button>
@@ -29,7 +29,7 @@ class NonProfitSection extends Component {
             </div>
         }
 
-        <div id="nonprofimage" className="hide-when-small"></div>
+        <div id="nonprofimage"></div>
 
         {/* <img src="/images/nonprofit-section.png" id="nonprofimage" className="hide-when-small" /> */}
 
