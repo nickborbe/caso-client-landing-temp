@@ -13,9 +13,9 @@ class ContestSection extends Component {
 
         <div id='contest-container'>
 
-            <div className="shrink-when-small contest-img" > </div>
+            <div className="contest-img" > </div>
 
-          <section className = "contest-section grow-when-tiny">
+          <section className = "contest-section">
             {this.props.language === 'english' && 
                 <div id="contest-section-right-side">
                 <h2>Sign up today for your chance to win an Ana Maria Polo contest! </h2>
