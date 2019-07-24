@@ -51,9 +51,9 @@ class Carousel extends Component {
 
         <img src={this.state.images[0]} />
 
-        <img className="hide-when-tiny" src={this.state.images[1]} />
+        <img className="hide-when-teeny-tiny" src={this.state.images[1]} />
 
-        <img className="hide-when-small" src={this.state.images[2]} />
+        <img className="hide-when-teeny-tiny" src={this.state.images[2]} />
 
         <i className="fas fa-angle-right"  onClick={()=>{this.scroll('right')}} ></i>
 
