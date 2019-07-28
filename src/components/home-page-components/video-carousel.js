@@ -115,9 +115,9 @@ class VidCarousel extends Component {
                 </div> */}
               </div>
             </div>
-            <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank">
+            {/* <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank">
                 <button id="see-all-vids-btn">See All</button>
-            </a>
+            </a> */}
 
           </div>
         );
