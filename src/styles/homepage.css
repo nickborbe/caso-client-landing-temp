@@ -535,6 +535,12 @@
 
 }
 
+@Media only screen and (min-width: 1800px){
+    .sponsored-hp-ad{
+        height: 245px;
+    }
+}
+
 
 
 @Media only screen and (max-width: 1275px){
