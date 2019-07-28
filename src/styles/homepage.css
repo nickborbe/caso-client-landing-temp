@@ -169,6 +169,9 @@
     width: 50%;
     box-sizing: border-box;
     overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .non-prof-left-side h2{
@@ -434,6 +437,9 @@
     background-image: url('/images/top-curve.png');
     background-size: 100%;
     background-position: 0% 18%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .vid-carousel-parent-div iframe{
@@ -473,6 +479,61 @@
       right: 480px;
       transition: right 0.75s;
   }
+
+
+@Media only screen and (min-width: 1500px){
+
+
+    .vid-carousel-parent-div {
+        padding-bottom: 20%;
+    }
+
+    .contest-img{
+        margin: 80px -19% 0 0;
+    }
+
+    .vid-carousel-parent-div iframe{
+        height: 380px;
+    }
+
+}
+
+
+@Media only screen and (min-width: 1600px){
+
+    #hp-main-image {
+        height: 680px;
+    }
+
+    .sponsored-hp-ad{
+        height: 220px;
+    }
+
+    #join-the-club{
+     padding-top: 200px;   
+    }
+
+
+}
+
+@Media only screen and (min-width: 1700px){
+    .sponsored-hp-ad{
+        height: 233px;
+    }
+    #join-the-club{
+        padding-top: 230px;   
+       }
+
+ 
+
+    .contest-img{
+        margin: 80px -22% 0 0;
+    }
+    .vid-carousel-parent-div iframe{
+        height: 400px;
+    }
+
+}
 
 
 

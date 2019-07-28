@@ -152,3 +152,20 @@
     background-image: url("/images/fake-twitter.png");
 }
 
+
+@Media only screen and (min-width: 1600px){
+    #conversation-section{
+        padding-top: 100px;
+    }
+
+}
+
+@Media only screen and (min-width: 1700px){
+    #conversation-section{
+        padding-top: 180px;
+    }
+
+}
+
+
+
