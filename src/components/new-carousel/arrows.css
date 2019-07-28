@@ -1,10 +1,27 @@
 .slick-prev {
   z-index: 100;
-  background: orange !important;
-  /* left: 10px !important; */
+  background-image: url('/images/arrow-left.png') !important;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  height: 30px;
 }
+
+.slick-prev:before{
+  content:none;
+}
+
+.slick-next:before{
+  content: none;
+}
+
+
 .slick-next {
   z-index: 100;
-  background: orange !important;
-  /* right: 10px !important; */
+  background-image: url('/images/arrow-right.png') !important;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  height: 30px;
 }
+
