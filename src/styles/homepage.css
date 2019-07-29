@@ -98,7 +98,7 @@
 
 
 #hp-carousel-ads{
-    height: 320px;
+    /* height: 320px; */
     width: 100%;
     background-color: #363738;
     display: flex;
@@ -108,8 +108,8 @@
 }  
 
 #hp-carousel-ads img{
-    width: 31%;
-    height: 340px;
+    width: 26%;
+    height: 320px;
 }
 
 #hp-carousel-ads .fas{
@@ -481,7 +481,26 @@
   }
 
 
+
+
+
+
+
 @Media only screen and (min-width: 1500px){
+
+    .contest-section{
+ 
+        padding: 0;
+    }
+    .contest-right-inner{
+        width: 50%;
+        margin-top: 12%;
+    }
+    #contest-section-right-side{
+        padding: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
 
     .vid-carousel-parent-div {
@@ -494,6 +513,9 @@
 
     .vid-carousel-parent-div iframe{
         height: 380px;
+    }
+    #join-the-club{
+        height: 600px;
     }
 
 }
@@ -547,10 +569,38 @@
         height: 800px;
     }
     .sponsored-hp-ad{
-        height: 280px;
+        height: 277px;
     }
     .vid-carousel-parent-div iframe{
         height: 550px;
+    }  
+    .contest-img{
+        margin: 100px -18% 0 0;
+        height: 600px;
+    } 
+    .contest-section{
+        min-height: 1000px;
+        padding: 0;
+    }
+    .contest-right-inner{
+        width: 50%;
+        margin-top: 18%;
+        margin-left: 10%;
+    }
+    #contest-section-right-side{
+        padding: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #hp-carousel-ads img{
+        height: 440px;
+        margin-bottom: 5%;
+    }
+    #non-prof-section{
+        height: 700px;
+    }
+    #join-the-club{
+        height: 750px;
     }
 }
 
