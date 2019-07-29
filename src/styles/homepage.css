@@ -542,6 +542,20 @@
 }
 
 
+@Media only screen and (min-width: 2000px){
+    #hp-main-image {
+        height: 800px;
+    }
+    .sponsored-hp-ad{
+        height: 280px;
+    }
+    .vid-carousel-parent-div iframe{
+        height: 550px;
+    }
+}
+
+
+
 
 @Media only screen and (max-width: 1275px){
     #hp-carousel-ads img{
