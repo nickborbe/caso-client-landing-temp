@@ -179,12 +179,13 @@ i{
   align-items: center;
 }  
 
-.hp-header-right-icons > button {
-  background-color:#caa453;
-  color: black;
+.translate-button {
+  background-color: transparent;
+  color: white;
+  text-decoration: underline;
   border-radius: 4px;
   letter-spacing: 1.2px;
-  margin: 0;
+  margin-right: 25%;
 }
 
 

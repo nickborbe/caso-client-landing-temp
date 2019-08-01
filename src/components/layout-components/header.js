@@ -42,7 +42,7 @@ class Header extends Component {
           <span className="hp-header-right-icons">
           {/* <i className="fas fa-user"></i> */}
 
-          <button onClick = {this.props.changeLanguage} style={{marginRight: '25%'}}>
+          <button className="translate-button" onClick = {this.props.changeLanguage}>
           {this.props.language ==='spanish' && 'ENGLISH' }
           {this.props.language ==='english' && 'ESPAÑOl' }
           
