@@ -44,7 +44,7 @@ class Header extends Component {
 
           <button className="translate-button" onClick = {this.props.changeLanguage}>
           {this.props.language ==='spanish' && 'ENGLISH' }
-          {this.props.language ==='english' && 'ESPAÑOl' }
+          {this.props.language ==='english' && 'ESPAÑOL' }
           
           </button>
 
