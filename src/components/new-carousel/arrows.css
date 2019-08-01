@@ -17,6 +17,7 @@
 }
 
 
+
 .slick-next {
   z-index: 100;
   background-image: url('/images/arrow-right.png') !important;
@@ -25,5 +26,20 @@
   background-position-y: 0;
   height: 30px;
   margin-right: 3%;
+}
+
+@Media only screen and (max-width: 800px){
+
+  .slick-next {
+    margin-right: 0;
+    margin-top: 20%;
+  }
+
+  .slick-prev{
+    margin-left: 0;
+    margin-top: 20%;
+  }
+  
+
 }
 

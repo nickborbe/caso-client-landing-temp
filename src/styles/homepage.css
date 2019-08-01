@@ -735,7 +735,6 @@ div[aria-hidden='true'] + div[aria-hidden='false'] + div[aria-hidden='false']{
 
 .vid-carousel-parent-div iframe{
     margin: 10px;
-    width: 500px;
     height: 300px;
 }
 }
