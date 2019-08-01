@@ -24,13 +24,32 @@
     justify-content: center;
 }
 
-#see-all-vids-btn{
-    margin: 50px 0 80px 0;
-    background-color: black;
-    color: white;
-    width: 150px;
-    padding: 10px;
-    border-radius: 4px;
+.blurb-section{
+    background-color: white;
+    color: black;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+}
+
+.blurb-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+}
+
+.blurb-inner i {
+    color: black;
+    margin: 3vw 1vw 150px 1vw;
+}
+
+.mid-page-hr{
+    
+    border-bottom: 2px solid #caa453;
+    height: 0px;
+    width: 80%;
 }
 
 .sponsored-hp-ad{
