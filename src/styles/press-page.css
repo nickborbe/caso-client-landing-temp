@@ -35,10 +35,32 @@
   }
 
   #press-bottom{
-    height: 450px;
+    height: 420px;
     background: url('/images/press-bottom-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 5%;
   }
+
+
+  @Media only screen and (min-width: 1700px){
+    #press-bottom{
+      height: 550px;
+    }
+  }
+
+
+  @Media only screen and (min-width: 1900px){
+    #press-bottom{
+      height: 650px;
+    }
+  }
+
   
+
+  @Media only screen and (min-width: 2300px){
+    #press-bottom{
+      height: 750px;
+    }
+  }
+
