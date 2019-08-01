@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position-y: 0;
   height: 30px;
+  margin-left: 3%;
 }
 
 .slick-prev:before{
@@ -23,5 +24,6 @@
   background-repeat: no-repeat;
   background-position-y: 0;
   height: 30px;
+  margin-right: 3%;
 }
 
