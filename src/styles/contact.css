@@ -1,17 +1,31 @@
 p{
     width: 60%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .p-wrapper{
     display: flex;
     justify-content: center;
 }
+.button-contact {
+    background-color: #40b3b7;
+}
+
+.contact-field-label{
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.contact-page-bg {
+    padding-top: 100px;
+    background-color: #363738;
+    color: white;
+}
 
 .orange-form{
     display: flex;
     justify-content: center;
-    background: url('/images/contact-us.png');
+    /* background: url('/images/contact-us.png'); */
     background-size: 100%;
     background-repeat: no-repeat;
     /* height: 1200px; */
@@ -24,7 +38,7 @@ p{
     flex-direction: column;
     align-items: center;
     width: 65%;
-    margin: 5%;
+    /* margin:; */
     padding: 35px 25px;
 }
 
