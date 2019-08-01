@@ -55,7 +55,7 @@
 }
 
 .sponsored-hp-ad{
-    height: 150px;
+    height: 16vw;
     background: url('/images/omega-ad4.jpg');
     display: block;
     background-size: cover;
@@ -546,9 +546,7 @@
 
 
 
-    .sponsored-hp-ad{
-        height: 220px;
-    }
+  
 
     #join-the-club{
      padding-top: 200px;   
@@ -558,9 +556,7 @@
 }
 
 @Media only screen and (min-width: 1700px){
-    .sponsored-hp-ad{
-        height: 233px;
-    }
+ 
     #join-the-club{
         padding-top: 230px;   
        }
@@ -577,17 +573,13 @@
 }
 
 @Media only screen and (min-width: 1800px){
-    .sponsored-hp-ad{
-        height: 245px;
-    }
+ 
 }
 
 
 @Media only screen and (min-width: 2000px){
   
-    .sponsored-hp-ad{
-        height: 277px;
-    }
+
     .vid-carousel-parent-div iframe{
         height: 550px;
     }  
@@ -709,11 +701,7 @@
     .contest-section p{
         line-height: 1.5em;
     }
-    .sponsored-hp-ad{
-        height: 120px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+  
     .vid-carousel-parent-div{
         padding-bottom: 80px;
         padding-top: 80px;
@@ -766,11 +754,7 @@
         margin: 10px;
         width: 300px;
     }
-    .sponsored-hp-ad{
-        height: 90px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+ 
 
     .vid-carousel-parent-div{
         padding-bottom: 0;
