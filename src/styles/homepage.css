@@ -464,7 +464,7 @@
 }
 
 .vid-carousel-parent-div iframe{
-    margin: 25px 0;
+    /* margin: 25px 0; */
     width: 93%;
     height: 100%;
     position: relative;

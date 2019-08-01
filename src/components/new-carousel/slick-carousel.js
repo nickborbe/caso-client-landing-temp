@@ -56,8 +56,9 @@ class SlickCarousel extends Component {
       {
         title: "six",
         id: "videoSix",
-        src: "https://www.youtube.com/embed/o6QDFM_F3U4?ecver=2&enablejsapi=1",
+        src: "https://www.youtube.com/embed/8d0fJpilYPk?ecver=2&enablejsapi=1"
       },
+   
       {
         title: "seven",
         id: "videoSeven",
@@ -78,11 +79,7 @@ class SlickCarousel extends Component {
         id: "videoTen",
         src: "https://www.youtube.com/embed/Wdgk7-GYtq8?ecver=2&enablejsapi=1",
       },
-      {
-        title: "eleven",
-        id: "videoEleven",
-        src: "https://www.youtube.com/embed/8d0fJpilYPk?ecver=2&enablejsapi=1"
-      },
+   
     ];
 
     let videoDivs = youtubeVideos.map(video => {
