@@ -66,58 +66,15 @@ class VidCarousel extends Component {
 
             <div className="mailchimp wrapper">
               <div className="box">
-                {/* <div id="outer-carousel">
-                  <i
-                    className="fas fa-arrow-left left"
-                    onClick={() => {
-                      this.scroll("left");
-                    }}
-                  />
-                  <div id="carousel">
-    
-                    <iframe
-                      title="two"
-                      id="imageTwo"
-                      frameBorder="0"
-                      className={this.state.slidingRight? 'slideRight video2': 'video2'}
-                      height="300"
-                      width="300"
-                      src={this.state.images[1]}
-                    />
-    
-                    <iframe
-                      title="three"
-                      id="imageThree"
-                      frameBorder="0"
-                      className={this.state.slidingLeft? 'slideLeft video3 hide-when-small ' : 'video3 hide-when-small '}
-                      height="300"
-                      width="300"
-                      src={this.state.images[2]}
-                    />
-                  </div>
-                  <i
-                    className="fas fa-arrow-right"
-                    onClick={() => {
-                      this.scroll("right");
-                    }}
-                  />
-
-                </div> */}
+              
 
                 <SlickCarousel/>
     
               
     
-                {/* <div className="ads-div">
-                  <img src="images/300x200.jpg" alt="" className="ad-left"></img>
-                  
-                  <img src="images/300x200.jpg" alt="" className="ad-right"></img>
-                </div> */}
               </div>
             </div>
-            {/* <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank">
-                <button id="see-all-vids-btn">See All</button>
-            </a> */}
+       
 
           </div>
         );

@@ -466,17 +466,32 @@
 .vid-carousel-parent-div iframe{
     margin: 25px 0;
     width: 93%;
-    height: 350px;
+    height: 100%;
     position: relative;
     border-radius: 3px;
 }
 
-.video2{
+.box div[aria-hidden='false']{
+    height: 26vw;
+}
+
+
+.box div[aria-hidden='false'] > div{
+    height: 100%;
+}
+
+ .carousel-iframe{
+     height: 100%;
+ }
+
+ 
+
+/* .video2{
     left:0;
 }
 .video3{
     right:0;
-}
+} */
 
  #outer-carousel {
     display: flex;
@@ -532,9 +547,7 @@
         margin: 80px -19% 0 0;
     }
 
-    .vid-carousel-parent-div iframe{
-        height: 380px;
-    }
+  
     #join-the-club{
         height: 600px;
     }
@@ -566,9 +579,7 @@
     .contest-img{
         margin: 80px -22% 0 0;
     }
-    .vid-carousel-parent-div iframe{
-        height: 400px;
-    }
+
 
 }
 
@@ -580,9 +591,6 @@
 @Media only screen and (min-width: 2000px){
   
 
-    .vid-carousel-parent-div iframe{
-        height: 550px;
-    }  
     .contest-img{
         margin: 100px -18% 0 0;
         height: 600px;
@@ -649,11 +657,7 @@
     .grow-when-small{
         width: 100%;
     }
-    .vid-carousel-parent-div iframe{
-        margin: 0;
-        width: 88%;
-        height: 280px;
-    }
+ 
     #join-the-club{
         padding-top: 0;
     }
@@ -707,13 +711,19 @@
         padding-top: 80px;
     }
  
-    .vid-carousel-parent-div iframe{
-        margin: 0;
-        width: 88%;
-        height: 180px;
-    }
 
 }
+
+@Media only screen and (max-width: 775px){
+
+.vid-carousel-parent-div iframe{
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+}
+}
+
+
 
 @Media only screen and (max-width: 700px){
     #contest-section-right-side{
@@ -750,10 +760,7 @@
     }
   
 
-    .vid-carousel-parent-div iframe{
-        margin: 10px;
-        width: 300px;
-    }
+  
  
 
     .vid-carousel-parent-div{
