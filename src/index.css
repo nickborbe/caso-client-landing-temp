@@ -12,6 +12,10 @@
     }
 
 
+html{
+  transform: scale(1)
+}
+
     
 body {
   margin: 0;
