@@ -10,7 +10,7 @@ class Header extends Component {
       return(
         <header id="hp-header">
 
-        <span className="hp-header-left-icons">
+        {/* <span className="hp-header-left-icons">
         <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank">
           <i className="fab fa-facebook-f"></i>
         </a>
@@ -23,6 +23,12 @@ class Header extends Component {
         <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank">
         <i className="fab fa-youtube"></i>
         </a>
+        </span> */}
+
+        <span className="hp-header-left-icons">
+
+        <i className="fas fa-bars" style={{fontSize: '28px'}}></i>
+
         </span>
 
         <a id="main-amp" href="/"> 
@@ -34,15 +40,15 @@ class Header extends Component {
 
 
           <span className="hp-header-right-icons">
-          <i className="fas fa-user"></i>
-          <i className="fas fa-shopping-cart"></i>
+          {/* <i className="fas fa-user"></i> */}
 
-          <button onClick = {this.props.changeLanguage}>
+          <button onClick = {this.props.changeLanguage} style={{marginRight: '25%'}}>
           {this.props.language ==='spanish' && 'ENGLISH' }
           {this.props.language ==='english' && 'ESPAÑOl' }
           
           </button>
 
+          <i className="fas fa-shopping-cart"></i>
           </span>
         </header>
       )

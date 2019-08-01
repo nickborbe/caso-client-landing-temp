@@ -50,9 +50,9 @@ class App extends Component {
 
     <Header language = {this.state.language} changeLanguage = {this.switchLanguage}/>
 
-    <NavBar/>
+    {/* <NavBar/> */}
 
-    <HamburgerNav/>
+    {/* <HamburgerNav/> */}
 
 
     <Switch>

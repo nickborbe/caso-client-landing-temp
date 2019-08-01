@@ -310,3 +310,15 @@ i{
 #the-footer form h6{
   margin: 10px 0;
 }
+
+.hp-header-left-icons i{
+  color: white;
+}
+
+
+
+@Media only screen and (mix-width: 1600px){
+  #hp-header h1{
+    font-size: 16px;
+  }
+}
