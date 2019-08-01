@@ -1,8 +1,9 @@
 
 
+
 #hp-main-image{
     background-image: url('/images/main-image.png');
-    height: 580px;
+    height: 42vw;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -543,9 +544,7 @@
 
 @Media only screen and (min-width: 1600px){
 
-    #hp-main-image {
-        height: 680px;
-    }
+
 
     .sponsored-hp-ad{
         height: 220px;
@@ -585,9 +584,7 @@
 
 
 @Media only screen and (min-width: 2000px){
-    #hp-main-image {
-        height: 800px;
-    }
+  
     .sponsored-hp-ad{
         height: 277px;
     }
@@ -668,9 +665,7 @@
     #join-the-club{
         padding-top: 0;
     }
-    #hp-main-image{
-        height: 400px;
-    }
+
 
 }
 
@@ -723,9 +718,7 @@
         padding-bottom: 80px;
         padding-top: 80px;
     }
-    #hp-main-image{
-        height: 350px;
-    }
+ 
     .vid-carousel-parent-div iframe{
         margin: 0;
         width: 88%;
@@ -784,9 +777,7 @@
         padding-top: 40px;
         background-size: cover;
     }
-    #hp-main-image{
-        height: 280px;
-    }
+ 
     
   }
 
@@ -794,9 +785,7 @@
     .contest-section{
         padding-top: 5px;
     }
-    #hp-main-image{
-        height: 195px;
-    }
+   
     .translate-button{
         display: none;
     }
@@ -817,4 +806,6 @@
         padding: 0 20px;
     }
   }
+
+
 
