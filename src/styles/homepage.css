@@ -410,7 +410,6 @@
 
 #join-the-club{
     height: 480px;
-    padding-top: 120px;
     color: black;
     display: flex;
     justify-content: center;
@@ -438,7 +437,7 @@
 #join-club-wrapper p{
     font-size: 12px;
     line-height: 1.5em;
-    margin: 0;
+    margin: 20px 0;
 }
 
 #join-club-wrapper form{
@@ -449,7 +448,7 @@
 
 #join-club-wrapper input{
     background-color: transparent;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: white;
     width: 250px;
     height: 40px;
@@ -460,15 +459,23 @@
 
 #join-club-wrapper input[type=submit]{
 
-    background-color: white;
-    color: black;
+    font-size: 12px;
+    color: white;
     width: 100px;
-    height: 40px;
+    height: 42px;
     padding: 5px 10px;
     border-radius: 5px;
-    margin: 5px;
+
+    margin: 10px 0;
+    background-color: #4cb3b8;
+    font-family: "NoirPro"
     
 
+}
+
+.landing-component{
+    display: flex;
+    align-items: center;
 }
 
 
