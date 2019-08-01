@@ -15,9 +15,6 @@ class PressPage extends Component {
 
         <div id="press-top"></div>
 
-
-      {/* <img src="/images/press-header.png" className="press-header"/> */}
-
       <div className="press-section">
       <h2 id="">PRESS</h2>
       
@@ -28,7 +25,7 @@ class PressPage extends Component {
           <div className="card">
             <a href="https://www.eonline.com/photos/24507/nbcuniversal-upfront-2018-red-carpet-arrivals/846756">
           
-            <img src="/images/e-news.png" 
+            <img src="/images/enews.png" 
             alt="" className="thumbnail" />
           
             </a>
@@ -39,7 +36,7 @@ class PressPage extends Component {
           <div className="card">
             <a href="https://www.usmagazine.com/entertainment/news/ana-maria-polo-i-admire-judge-judy-immensely-w495937/">
             
-            <img src="/images/us-news.png" 
+            <img src="/images/us.png" 
             alt="" className="thumbnail" />
           
             </a>
@@ -49,7 +46,7 @@ class PressPage extends Component {
           <div className="card">
             <a href="https://peopleenespanol.com/celebridades/caso-cerrado-cumple-18-anos-en-television/">
             
-            <img src="/images/people-news.png" 
+            <img src="/images/people.png" 
             alt="" className="thumbnail" />
           
             </a>
@@ -57,55 +54,95 @@ class PressPage extends Component {
           </div>
 
           <div className="card">
-            <a href="https://www.eonline.com/photos/24507/nbcuniversal-upfront-2018-red-carpet-arrivals/846756">
+            <a href="https://www.vanidades.com/">
           
-            <img src="/images/e-news.png" 
+            <img src="/images/vanidales.png" 
             alt="" className="thumbnail" />
           
             </a>
-            <p>E Online!</p>
+            <p>Vanidades</p>
             
           </div>
 
           <div className="card">
-            <a href="https://www.usmagazine.com/entertainment/news/ana-maria-polo-i-admire-judge-judy-immensely-w495937/">
+            <a href="https://www.instagram.com/venuemagazine_/?hl=en">
             
-            <img src="/images/us-news.png" 
+            <img src="/images/venue.png" 
             alt="" className="thumbnail" />
           
             </a>
-            <p>US Weekly!</p>
+            <p>Venue Magazine</p>
           </div>
 
           <div className="card">
-            <a href="https://peopleenespanol.com/celebridades/caso-cerrado-cumple-18-anos-en-television/">
+            <a href="https://caras.perfil.com/">
             
-            <img src="/images/people-news.png" 
+            <img src="/images/caras.png" 
             alt="" className="thumbnail" />
           
             </a>
-            <p>People en Español!</p>
+            <p>Caras</p>
           </div>
 
           <div className="card">
-            <a href="https://www.eonline.com/photos/24507/nbcuniversal-upfront-2018-red-carpet-arrivals/846756">
+            <a href="https://www.nexos.com.mx/">
           
-            <img src="/images/e-news.png" 
+            <img src="/images/nexos.png" 
             alt="" className="thumbnail" />
           
             </a>
-            <p>E Online!</p>
+            <p>Nexos</p>
             
           </div>
 
           <div className="card">
-            <a href="https://www.usmagazine.com/entertainment/news/ana-maria-polo-i-admire-judge-judy-immensely-w495937/">
+            <a href="">
             
-            <img src="/images/us-news.png" 
+            <img src="/images/cara mia.png" 
             alt="" className="thumbnail" />
           
             </a>
-            <p>US Weekly!</p>
+            <p>CARA MIA</p>
+          </div>
+
+          <div className="card">
+            <a href="http://elespecial.com/">
+            
+            <img src="/images/especial.png" 
+            alt="" className="thumbnail" />
+          
+            </a>
+            <p>El Especial</p>
+          </div>
+
+          <div className="card">
+            <a href="https://www.elnuevoherald.com/">
+            
+            <img src="/images/el nuevo herald.png" 
+            alt="" className="thumbnail" />
+          
+            </a>
+            <p>El Especial</p>
+          </div>
+
+          <div className="card">
+            <a href="https://www.tvynovelas.com/us/">
+            
+            <img src="/images/tv y novelas.png" 
+            alt="" className="thumbnail" />
+          
+            </a>
+            <p>TVyNovelas</p>
+          </div>
+
+          <div className="card">
+            <a href="https://www.revistahogar.com/">
+            
+            <img src="/images/hogar.png" 
+            alt="" className="thumbnail" />
+          
+            </a>
+            <p>HOGAR</p>
           </div>
 
         </div>
