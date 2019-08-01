@@ -26,7 +26,7 @@ class ContactUsPage extends Component {
         const message = document.getElementById('message').value;
         axios({
             method: "POST",
-            url: process.env.BASE_URL+"/api/contact-us",
+            url: process.env.BASE_URL + "/api/contact-us",
             data: {
                 name: name,
                 email: email,
@@ -52,22 +52,22 @@ class ContactUsPage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="contact-page-bg">
 
-
-                {/* <div className="p-wrapper">
+                <h1>CONTACT</h1>
+                <div className="p-wrapper">
                     <p>
-                        Lorem ipsum dolor amet cred yr pour-over banjo sriracha, artisan
-                        church-key cronut bicycle rights. Fanny pack quinoa sustainable,
-                        affogato unicorn cred tacos 8-bit keytar paleo hexagon. Normcore
-                        wayfarers everyday kogi.
-          </p>
-                </div> */}
+                    We can encourage users to use a particular hashtag if they register for the contest and to share it on social media.
+                     Here we can show all of those comments in real time 
+                     (if possible). We can also have comment boxes directly 
+                     on the site but this would require a log in.
+                    </p>
+                </div>
 
                 <div className="orange-form">
                     <form onSubmit={this.handleSubmit} id="contact-form">
                         <div className="fieldSet">
-                            <label>CONTACT US- DROP DOWN TO SELECT SUBJECT</label>
+                            <label className="contact-field-label">CONTACT US- DROP DOWN TO SELECT SUBJECT</label>
                             <select id="contactWhoEmail">
                                 <option value="fanMail">FAN MAIL</option>
                                 <option value="LaDoctoraResponde">LA DOCTORA RESPONDE</option>
@@ -78,111 +78,23 @@ class ContactUsPage extends Component {
                         </div>
 
                         <div className="fieldSet">
-                            <label>NAME</label>
+                            <label className="contact-field-label">NAME</label>
                             <input id="name" placeholder="John Doe" />
                         </div>
 
                         <div className="fieldSet">
-                            <label>EMAIL</label>
+                            <label className="contact-field-label">EMAIL</label>
                             <input type="email" id="email" placeholder="JohnDoe@email.com" />
                         </div>
 
                         <div className="fieldSet">
-                            <label>MESSAGE</label>
+                            <label className="contact-field-label">MESSAGE</label>
                             <textarea rows="5" id="message" />
                         </div>
 
-                        <button type="submit">SEND</button>
+                        <button className="button-contact" type="submit">SEND</button>
                     </form>
                 </div>
-
-                {/* <section className="faq-section">
-                    <h2> FREQUENTLY ASKED QUESTIONS</h2>
-
-                    <div
-                        className="faq-drop"
-                        onClick={() => {
-                            this.showAnswer(0);
-                        }}
-                    >
-                        <span>
-                            THIS IS A QUESTION THAT IS OFTEN ASKED ON THIS WEBSITE. PLEASE
-                            TAKE A MOMENT TO READ
-            </span>
-                        <i className="fas fa-chevron-down" />
-                    </div>
-                    {this.state.answerShowing === 0 && (
-                        <div className="answer" id="an1">
-                            This is the answer to the question tiam hendrerit nulla sit amet
-                            diam faucibus, facilisis ultricies magna vulputate. Vestibulum sit
-                            amet pharetra nulla, a interdum ligula. Maecenas finibus purus
-                            libero, at consequat neque consequat a. Vestibulum quis euismod
-                            eros. Vestibulum ut quam iaculis, maximus purus quis, ornare nunc.
-                            Sed vitae quam augue. In fringilla ornare nibh, in venenatis lacus
-                            euismod ac. Maecenas nec odio ac metus vulputate placerat. Nulla
-                            facilisi. Suspendisse sit amet euismod nunc. Nam tincidunt
-                            pulvinar erat, vitae fermentum augue euismod ultricies. Proin a
-                            purus at lorem vulputate porttitor id eu felis. Etiam maximus orci
-                            urna, eu mollis lacus suscipit nec. Donec at purus metus.
-            </div>
-                    )}
-
-                    <div
-                        className="faq-drop"
-                        onClick={() => {
-                            this.showAnswer(1);
-                        }}
-                    >
-                        <span>
-                            THIS IS A QUESTION THAT IS OFTEN ASKED ON THIS WEBSITE. PLEASE
-                            TAKE A MOMENT TO READ
-            </span>
-                        <i className="fas fa-chevron-down" />
-                    </div>
-                    {this.state.answerShowing === 1 && (
-                        <div className="answer" id="an2">
-                            This is the answer to the question tiam hendrerit nulla sit amet
-                            diam faucibus, facilisis ultricies magna vulputate. Vestibulum sit
-                            amet pharetra nulla, a interdum ligula. Maecenas finibus purus
-                            libero, at consequat neque consequat a. Vestibulum quis euismod
-                            eros. Vestibulum ut quam iaculis, maximus purus quis, ornare nunc.
-                            Sed vitae quam augue. In fringilla ornare nibh, in venenatis lacus
-                            euismod ac. Maecenas nec odio ac metus vulputate placerat. Nulla
-                            facilisi. Suspendisse sit amet euismod nunc. Nam tincidunt
-                            pulvinar erat, vitae fermentum augue euismod ultricies. Proin a
-                            purus at lorem vulputate porttitor id eu felis. Etiam maximus orci
-                            urna, eu mollis lacus suscipit nec. Donec at purus metus.
-            </div>
-                    )}
-
-                    <div
-                        className="faq-drop"
-                        onClick={() => {
-                            this.showAnswer(2);
-                        }}
-                    >
-                        <span>
-                            THIS IS A QUESTION THAT IS OFTEN ASKED ON THIS WEBSITE. PLEASE
-                            TAKE A MOMENT TO READ
-            </span>
-                        <i className="fas fa-chevron-down" />
-                    </div>
-                    {this.state.answerShowing === 2 && (
-                        <div className="answer" id="an3">
-                            This is the answer to the question tiam hendrerit nulla sit amet
-                            diam faucibus, facilisis ultricies magna vulputate. Vestibulum sit
-                            amet pharetra nulla, a interdum ligula. Maecenas finibus purus
-                            libero, at consequat neque consequat a. Vestibulum quis euismod
-                            eros. Vestibulum ut quam iaculis, maximus purus quis, ornare nunc.
-                            Sed vitae quam augue. In fringilla ornare nibh, in venenatis lacus
-                            euismod ac. Maecenas nec odio ac metus vulputate placerat. Nulla
-                            facilisi. Suspendisse sit amet euismod nunc. Nam tincidunt
-                            pulvinar erat, vitae fermentum augue euismod ultricies. Proin a
-                            purus at lorem vulputate porttitor id eu felis. Etiam maximus orci
-                            urna, eu mollis lacus suscipit nec. Donec at purus metus.
-            </div>
-                    )}
-                </section> */}
             </div>
         );
     }
