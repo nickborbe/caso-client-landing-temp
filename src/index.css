@@ -42,6 +42,8 @@ input{
 button{
   font-size: 8px;
   font-weight: bolder;
+  font-family: "NoirPro";
+  font-size: 12px;
 }
 
 h6{

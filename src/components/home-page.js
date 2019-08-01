@@ -31,15 +31,11 @@ class HomePage extends Component {
 
         <VidCarousel />
 
-        {/* <VideoSection /> */}
-
-        <SponsoredAd />
 
         <ContestSection language={this.props.language} />
 
         <Carousel />
 
-        {/* <SocialMediaSection /> */}
 
         <NonProfitSection language={this.props.language} />
 

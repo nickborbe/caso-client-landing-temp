@@ -64,53 +64,60 @@
 
 .contest-section{
     background-image: url('/images/amp-right.png');
-    min-height: 750px;
-    width: 60%;
+    width: 50%;
     background-position: 111% 0%;
     background-size: cover;
     float: right;
-    padding: 150px 0 0px 13%;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    text-align: left;
 }
 
 #contest-section-right-side button{
     margin: 10px 0;
+    background-color: #4cb3b8;
+    font-family: "NoirPro"
 }  
 #contest-section-right-side h2{
     color: white;
 }
 
-#contest-section-right-side{
-    
-    display: flex;
-    flex-direction: column;
-
-    text-align: left;
+.contest-right-inner{
+    width: 80%;
+    padding-left: 10%;
 }
 
+
+
 .contest-section p{
-    width: 80%;
-    margin: 10px 0;
+    width: 100%;
+    margin: 50px 0;
     line-height: 2em;
+    color: white;
 }
 
 #contest-container{
-    min-height: 750px;
     background-color: #363738;
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    margin: 100px 0; 
 }
 
 .contest-img{
-    background: url('/images/boy-and-dog.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 441px;
+    height: 28vw;
     width: 40%;
     display: inline-block;
-    margin: 100px -15% 0 0;
-  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+
+.contest-img > img{
+    height: 100%;
 }
 
 
@@ -560,9 +567,9 @@ div[aria-hidden='true'] + div[aria-hidden='false'] + div[aria-hidden='false']{
         padding-bottom: 20%;
     }
 
-    .contest-img{
+    /* .contest-img{
         margin: 80px -19% 0 0;
-    }
+    } */
 
   
     #join-the-club{
@@ -593,9 +600,9 @@ div[aria-hidden='true'] + div[aria-hidden='false'] + div[aria-hidden='false']{
 
  
 
-    .contest-img{
+    /* .contest-img{
         margin: 80px -22% 0 0;
-    }
+    } */
 
 
 }
@@ -608,10 +615,10 @@ div[aria-hidden='true'] + div[aria-hidden='false'] + div[aria-hidden='false']{
 @Media only screen and (min-width: 2000px){
   
 
-    .contest-img{
+    /* .contest-img{
         margin: 100px -18% 0 0;
         height: 600px;
-    } 
+    }  */
     .contest-section{
         min-height: 1000px;
         padding: 0;
@@ -699,11 +706,11 @@ div[aria-hidden='true'] + div[aria-hidden='false'] + div[aria-hidden='false']{
         height: 400px;
         overflow: scroll; 
     }
-    .contest-img{
+    /* .contest-img{
         width: 400px;
         position: relative;
         top: 50px;
-    }
+    } */
     
     .hide-when-tiny{
         display: none !important;
@@ -754,11 +761,11 @@ div[aria-hidden='true'] + div[aria-hidden='false'] + div[aria-hidden='false']{
         min-height: 0;
     }
 
-    .contest-img{
+    /* .contest-img{
         width: 220px;
         position: relative;
         top: -25px;
-    }
+    } */
     #non-prof-section{
         height: 250px;
     }
