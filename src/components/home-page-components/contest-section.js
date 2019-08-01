@@ -11,7 +11,13 @@ import '../../styles/css/all.css'
 class ContestSection extends Component {
   render() {
       return(
-        <div>
+        <div className="master-contest-div">
+
+          <img className="hp-swirl1" src="/images/hp-swirl-1.png" />
+         
+
+          
+
 
           <SponsoredAd />
 
@@ -66,7 +72,10 @@ class ContestSection extends Component {
        </div>
 
             <SponsoredAd />
-       </div>
+
+            <img className="hp-swirl2" src="/images/hp-swirl-2.png" />
+            </div>
+     
       )
   }
 }

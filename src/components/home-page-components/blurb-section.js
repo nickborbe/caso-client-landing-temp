@@ -50,15 +50,33 @@ class BlurbSection extends Component {
 
             {this.props.language === 'spanish' && 
              
-               
-             <p>
-             Ana Maria Polo invites you to stay connected beyond the television screen.
-             You will gain insight into her philanthropy work, lifestyle, and everyday passions. 
-             Discover how she has dedicated her life's work helping different communities.
-             Connect with Ana Maria Polo outisde of the courtroom.  He Dicho!!
-            </p>
+  
+             <div className='blurb-inner'>
+
+           
                 
-               
+             <p>
+                 Ana Maria Polo invites you to stay connected beyond the television screen.
+                 You will gain insight into her philanthropy work, lifestyle, and everyday passions. 
+                 Discover how she has dedicated her life's work helping different communities.
+                 Connect with Ana Maria Polo outisde of the courtroom.  He Dicho!!
+             </p>
+
+             <div>
+             <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank">
+             <i className="fab fa-facebook-f"></i>
+             </a>
+             <a href="https://twitter.com/anapolotv?lang=en" target="_blank">  
+             <i className="fab fa-twitter"></i>
+             </a>
+             <a href="https://www.instagram.com/anapolotv/?hl=en" target="_blank">
+             <i className="fab fa-instagram"></i>
+             </a>
+             </div> 
+
+            <div className="mid-page-hr" ></div>
+
+         </div>
                 
                   
             
