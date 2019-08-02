@@ -1,5 +1,6 @@
 .slick-prev {
   z-index: 100;
+  color: red;
   background-image: url('/images/arrow-left.png') !important;
   background-size: 80%;
   background-repeat: no-repeat;
@@ -19,6 +20,7 @@
 
 
 .slick-next {
+  color: red;
   z-index: 100;
   background-image: url('/images/arrow-right.png') !important;
   background-size: 80%;
@@ -42,4 +44,6 @@
   
 
 }
+
+
 
