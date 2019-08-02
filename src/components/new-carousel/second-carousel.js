@@ -32,27 +32,27 @@ class SecondCarousel extends Component {
       {
         title: "one",
         id: "imgOne",
-        src: "/images/group.png",
+        src: "/images/Group.png",
       },
       {
         title: "two",
         id: "imgTwo",
-        src: "/images/group.png"
+        src: "/images/Group.png"
       },
       {
         title: "three",
         id: "imgThree",
-        src: "/images/group.png"
+        src: "/images/Group.png"
       },
       {
         title: "four",
         id: "imgFour",
-        src: "/images/group.png"
+        src: "/images/Group.png"
       },
       {
         title: "five",
         id: "imgFive",
-        src: "/images/group.png"
+        src: "/images/Group.png"
       }
    
     ];
