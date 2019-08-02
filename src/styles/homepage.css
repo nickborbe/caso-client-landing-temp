@@ -128,11 +128,20 @@
 
 /* ---------------------end contest section----------------- */
 
+.carousel-back {
+    background-color: white;
+}
 
 
+/* .carousel-back .slick-track {
+    width: 67% !important;
+  } */
+
+
+/* 
 #hp-carousel-ads{
     background-color: white;
-    /* height: 320px; */
+    height: 320px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -152,7 +161,7 @@
 #hp-soc-med-prevs{
     display: flex;
     justify-content: center;
-}
+} */
 
 
 
@@ -544,6 +553,7 @@ div[aria-hidden='true'] + div[aria-hidden='false'] + div[aria-hidden='false']{
       right: 480px;
       transition: right 0.75s;
   }
+ 
 
 
 
