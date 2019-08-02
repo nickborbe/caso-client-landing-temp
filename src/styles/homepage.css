@@ -134,10 +134,23 @@
 
 
 /* .carousel-back .slick-track {
-    width: 67% !important;
+    width: 441vw !important;
   } */
 
 
+
+  .carousel-back div[aria-hidden='true'] +  div[aria-hidden='false'] img{
+    float: right;
+}
+
+.carousel-back div[aria-hidden='true'] +  div[aria-hidden='false'] + div[aria-hidden='false'] + div[aria-hidden='false'] img{
+    float:left;
+}
+
+.carousel-back div[aria-hidden='true'] + div[aria-hidden='false'] +  div[aria-hidden='false'] img{
+
+    margin: auto;
+}
 /* 
 #hp-carousel-ads{
     background-color: white;
