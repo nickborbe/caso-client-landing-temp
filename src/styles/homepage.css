@@ -130,18 +130,22 @@
 
 .carousel-back {
     background-color: white;
-    padding-bottom: 100px;
+    padding:0 12% 100px 12%;
+}
 
+.carousel-back img{
+    width: 100%;
+}
+
+.carousel-back .slick-prev{
+    left: -10%;
+}
+.carousel-back .slick-next{
+    right: -10%;
 }
 
 
-/* .carousel-back .slick-track {
-    width: 441vw !important;
-  } */
-
-
-
-  .carousel-back div[aria-hidden='true'] +  div[aria-hidden='false'] img{
+  /* .carousel-back div[aria-hidden='true'] +  div[aria-hidden='false'] img{
     float: right;
 }
 
@@ -152,33 +156,7 @@
 .carousel-back div[aria-hidden='true'] + div[aria-hidden='false'] +  div[aria-hidden='false'] img{
 
     margin: auto;
-}
-/* 
-#hp-carousel-ads{
-    background-color: white;
-    height: 320px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 50px;
-}  
-
-#hp-carousel-ads img{
-    width: 26%;
-    height: 320px;
-}
-
-#hp-carousel-ads .fas{
-    color: #d6d6d6;
-}
-
-#hp-soc-med-prevs{
-    display: flex;
-    justify-content: center;
 } */
-
-
 
 #instagram-div{
     margin: 50px;
@@ -525,13 +503,22 @@
     border-radius: 3px;
 }
 
-div[aria-hidden='true']{
-    visibility: hidden;
-}
 
 .box div[aria-hidden='true'] +  div[aria-hidden='false'],  .box div[aria-hidden='true'] +  div[aria-hidden='false'] + div[aria-hidden='false'] + div[aria-hidden='false']{
     height: 23vw;
 }
+
+.box div[aria-hidden='false'] +  div[aria-hidden='true']{
+    position: relative;
+    left: 100px;
+}
+
+.box div[aria-hidden='true'] + div[aria-hidden='true'] + div[aria-hidden='true']{
+    position: relative;
+    right: 100px;
+}
+
+
 
 .box div[aria-hidden='true'] + div[aria-hidden='false'] +  div[aria-hidden='false']{
     height: 30vw;
@@ -599,26 +586,8 @@ div[aria-hidden='true']{
     .contest-section{
         padding: 0;
     }
-    /* .contest-right-inner{
-        width: 50%;
-        margin-top: 12%;
-    } */
-    /* #contest-section-right-side{
-        padding: 0;
-        justify-content: flex-start;
-        align-items: center;
-    } */
 
-/* 
-    .vid-carousel-parent-div {
-        padding-bottom: 20%;
-    } */
 
-    /* .contest-img{
-        margin: 80px -19% 0 0;
-    } */
-
-  
     #join-the-club{
         height: 600px;
     }
@@ -629,27 +598,14 @@ div[aria-hidden='true']{
 @Media only screen and (min-width: 1600px){
 
 
-
   
-
-    #join-the-club{
-     padding-top: 200px;   
-    }
 
 
 }
 
 @Media only screen and (min-width: 1700px){
  
-    #join-the-club{
-        padding-top: 230px;   
-       }
-
- 
-
-    /* .contest-img{
-        margin: 80px -22% 0 0;
-    } */
+  
 
 
 }
@@ -661,25 +617,6 @@ div[aria-hidden='true']{
 
 @Media only screen and (min-width: 2000px){
   
-
-    /* .contest-img{
-        margin: 100px -18% 0 0;
-        height: 600px;
-    }  */
-    /* .contest-section{
-        min-height: 1000px;
-        padding: 0;
-    }
-    .contest-right-inner{
-        width: 50%;
-        margin-top: 18%;
-        margin-left: 10%;
-    }
-    #contest-section-right-side{
-        padding: 0;
-        justify-content: flex-start;
-        align-items: center;
-    } */
     #hp-carousel-ads img{
         height: 440px;
         margin-bottom: 5%;
@@ -687,9 +624,7 @@ div[aria-hidden='true']{
     #non-prof-section{
         height: 700px;
     }
-    #join-the-club{
-        height: 750px;
-    }
+ 
 }
 
 
@@ -699,18 +634,19 @@ div[aria-hidden='true']{
     #hp-carousel-ads img{
         height: 300px;
     }
-    #non-prof-section{
+    /* #non-prof-section{
         height: 400px;
-    }
+    } */
+
 }
 
 
 
 
 @Media only screen and (max-width: 1100px){
-    #non-prof-section{
+    /* #non-prof-section{
         height: 375px;
-    }
+    } */
     #hp-carousel-ads img{
         height: 225px;
     }
@@ -720,18 +656,15 @@ div[aria-hidden='true']{
     .shrink-when-small{
         width: 34%;
     }
-    /* .contest-section{
-        padding-top: 100px;
-        padding-left: 90px;
-        padding-right: 10px;
-    } */
+
     .grow-when-small{
         width: 100%;
     }
+  
  
-    #join-the-club{
+    /* #join-the-club{
         padding-top: 0;
-    }
+    } */
 
 
 }
@@ -739,9 +672,7 @@ div[aria-hidden='true']{
 
 
 @Media only screen and (max-width: 850px){
-    #non-prof-section{
-        height: 320px;
-    }
+  
     #hp-carousel-ads img{
         height: 180px;
     }
@@ -749,15 +680,6 @@ div[aria-hidden='true']{
         height: 400px;
         overflow: scroll; 
     }
-    /* #contest-section-right-side{
-        height: 400px;
-        overflow: scroll; 
-    } */
-    /* .contest-img{
-        width: 400px;
-        position: relative;
-        top: 50px;
-    } */
     
     .hide-when-tiny{
         display: none !important;
@@ -769,17 +691,17 @@ div[aria-hidden='true']{
     .shrink-when-tiny{
         width: 20%;
     }
-    /* .contest-section{
-        padding-top: 15%;
-        padding-left: 20%;
-    }
-    .contest-section p{
-        line-height: 1.5em;
-    } */
   
     .vid-carousel-parent-div{
         padding-bottom: 80px;
         padding-top: 80px;
+    }
+
+    .carousel-back .slick-prev{
+        margin: 0 0 10% 10%;
+    }
+    .carousel-back .slick-next{
+        margin: 0 10% 0 10%;
     }
  
 
@@ -787,60 +709,38 @@ div[aria-hidden='true']{
 
 @Media only screen and (max-width: 775px){
 
+
 .vid-carousel-parent-div iframe{
     margin: 10px;
-    height: 300px;
+    height: 440px;
+    width: 90%;
+}
+
+
+.carousel-back div[aria-hidden='true'] +  div[aria-hidden='false'] img{
+    margin: auto;
+    float: none;
 }
 }
 
 
 
 @Media only screen and (max-width: 700px){
-     #contest-section-right-side{
-        min-height: 250px;
-        height: 250px;
-        overflow: scroll; 
-    }
-    /* .contest-section{
-        min-height: 250px;
-    }
-    #contest-container{
-        min-height: 0;
-    }  */
 
-    /* .contest-img{
-        width: 220px;
-        position: relative;
-        top: -25px;
-    } */
-    #non-prof-section{
-        height: 250px;
-    }
-    #nonprofimage{
-        height: 100%;
-    }
-    #hp-carousel-ads img{
-        height: 350px;
-        width: 80%;
-    }
+
     .hide-when-teeny-tiny{
         display: none !important;
     }
-  
-
-  
- 
-
-    .vid-carousel-parent-div{
-        padding-bottom: 0;
-        padding-top: 40px;
-        background-size: cover;
-    }
- 
-    
   }
 
   @Media only screen and (max-width: 600px){
+
+/* .carousel-back .slick-prev{
+    margin: 0 0 10% 10%;
+}
+.carousel-back .slick-next{
+    margin: 0 10% 0 10%;
+} */
     .contest-section{
         padding-top: 5px;
     }

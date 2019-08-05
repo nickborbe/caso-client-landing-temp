@@ -15,6 +15,16 @@ class SecondCarousel extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       responsive: [
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+            arrows: true
+          }
+        },
          {
           breakpoint: 775,
           settings: {
