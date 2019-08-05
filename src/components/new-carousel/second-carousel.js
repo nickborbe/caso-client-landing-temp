@@ -16,7 +16,7 @@ class SecondCarousel extends Component {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1000,
+          breakpoint: 850,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -26,7 +26,7 @@ class SecondCarousel extends Component {
           }
         },
          {
-          breakpoint: 775,
+          breakpoint: 650,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,

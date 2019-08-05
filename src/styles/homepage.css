@@ -233,12 +233,6 @@
 }
 
 #nonprofbtn{
-    /* margin: 15px 0 0 0;
-    background-color: black;
-    color: white;
-    width: 200px;
-    padding: 10px;
-    border-radius: 4px; */
     margin: 10px 0;
     background-color: #4cb3b8;
     font-family: "NoirPro"
@@ -698,10 +692,10 @@
     }
 
     .carousel-back .slick-prev{
-        margin: 0 0 10% 10%;
+        margin: 0 0 10% 0;
     }
     .carousel-back .slick-next{
-        margin: 0 10% 0 10%;
+        margin: 0 0 0 10%;
     }
  
 
