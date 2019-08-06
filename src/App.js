@@ -23,7 +23,10 @@ import HamburgerNav from "./components/layout-components/hamburger-nav";
 class App extends Component {
   constructor(props){
     super(props)
-      this.state = {language: 'english'}
+      this.state = {
+        language: 'english',
+        mobileNavShowing: false,
+      }
     
   }
 
@@ -33,6 +36,10 @@ class App extends Component {
     } else {
       this.setState({language: 'spanish'})
     }
+  }
+
+  toggleMobileNav = () => {
+    this.setState({mobileNavShowing: !this.state.mobileNavShowing})
   }
 
   render() {
@@ -48,11 +55,17 @@ class App extends Component {
       <div className="App">
 
 
-    <Header language = {this.state.language} changeLanguage = {this.switchLanguage}/>
+    <Header 
+    language = {this.state.language} 
+    toggleMobileNav = {this.toggleMobileNav}
+    changeLanguage = {this.switchLanguage}/>
 
-    {/* <NavBar/> */}
+    <NavBar/>
 
-    {/* <HamburgerNav/> */}
+    {this.state.mobileNavShowing &&
+    <HamburgerNav
+    toggleMobileNav = {this.toggleMobileNav}/>
+    }
 
 
     <Switch>

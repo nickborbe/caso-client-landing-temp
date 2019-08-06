@@ -10,7 +10,7 @@ class Header extends Component {
       return(
         <header id="hp-header">
 
-        {/* <span className="hp-header-left-icons">
+        <span className="hp-header-left-icons hide-when-teeny-tiny">
         <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank">
           <i className="fab fa-facebook-f"></i>
         </a>
@@ -20,14 +20,14 @@ class Header extends Component {
         <a href="https://www.instagram.com/anapolotv/?hl=en" target="_blank">
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank">
-        <i className="fab fa-youtube"></i>
-        </a>
-        </span> */}
+        </span>
 
-        <span className="hp-header-left-icons">
+        <span className="hp-header-left-icons mobile-only">
 
-        <i className="fas fa-bars" style={{fontSize: '28px'}}></i>
+        <i className="fas fa-bars" 
+        style={{fontSize: '28px'}}
+        onClick={this.props.toggleMobileNav}
+        ></i>
 
         </span>
 
@@ -48,7 +48,7 @@ class Header extends Component {
           
           </button>
 
-          <i className="fas fa-shopping-cart"></i>
+          {/* <i className="fas fa-shopping-cart"></i> */}
           </span>
         </header>
       )

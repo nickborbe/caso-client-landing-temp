@@ -94,74 +94,7 @@ i{
   font-size: 22px;
 }
 
-@Media only screen and (max-width: 700px){
-  #hp-header h1{
-    font-size: 16px;
-  }
 
-.hp-navbar{
-  display: none !important;
-} 
-
-.hamburger-nav{
-  background-color: #fffef2;
-  min-height: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 10%;
-}
-
-.hamburger-nav .burger-icon {
-  margin: 5%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
-}
-
-.hamburger-nav i{
-  margin: 2%;
-}
-
-.hamburger-nav a{
-  color: black;
-  text-decoration: none;
-}
-
-.burgerDisplayNone {
-  color: black;
-  text-decoration: none;
-  display: none;
-  margin: 5% auto;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.burgerDisplay {
-  color: black;
-  text-decoration: none;
-  display: flex;
-  margin: 5% auto;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
- 
-
-}
-
-@Media only screen and (min-width: 701px){
-
-
-.hamburger-nav{
-  display: none !important;
-} 
- 
-
-}
 
 .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-user, .fa-shopping-cart{
   color: white;
@@ -174,8 +107,13 @@ i{
 .hp-header-left-icons{
   width: 150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
+
+.hp-header-left-icons i{
+  margin: 0 5px;
+}
+
 
 .hp-header-right-icons{
   width: 150px;
@@ -204,7 +142,7 @@ i{
 /* ------------------------ end header stuff  ----------------------*/
 
 .hp-navbar{
- background-color: #fffef2;
+ background: #2E2E2E;
  min-height: 60px;
  display: flex;
  align-items: center;
@@ -213,8 +151,10 @@ i{
 }
 
 .hp-navbar a{
-  color: black;
+  color: white;
   text-decoration: none;
+  font-family: "NoirPro";
+  font-size: 14px;
 }
 
 .orange-form input{
@@ -325,7 +265,76 @@ i{
 
 
 
-@Media only screen and (mix-width: 1600px){
+.mobile-only{
+  display: none;
+}
+
+
+
+@Media only screen and (max-width: 700px){
+  #hp-header h1{
+    font-size: 16px;
+  }
+
+  .mobile-only{
+    display: block;
+  }
+
+.hp-navbar{
+  display: none !important;
+} 
+
+.hamburger-nav{
+  background: rgba(36, 36, 36, 0.95);
+  height: 409px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0 5px 0;
+  font-family: "NoirPro";
+  text-align: center;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+
+.x{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  font-family: "NoirPro";
+}
+
+
+
+.hamburger-nav a{
+  font-family: "NoirPro";
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+
+ 
+
+}
+
+@Media only screen and (min-width: 701px){
+
+
+.hamburger-nav{
+  display: none !important;
+} 
+ 
+
+}
+
+
+@Media only screen and (min-width: 1600px){
   #hp-header h1{
     font-size: 16px;
   }
