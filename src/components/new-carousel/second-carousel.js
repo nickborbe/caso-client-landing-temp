@@ -42,7 +42,7 @@ class SecondCarousel extends Component {
       {
         title: "one",
         id: "imgOne",
-        src: "/images/shop-img.png",
+        src: "/images/white-dog.png",
       },
       {
         title: "two",
@@ -52,7 +52,7 @@ class SecondCarousel extends Component {
       {
         title: "three",
         id: "imgThree",
-        src: "/images/shop-img.png"
+        src: "/images/dog-panting.png"
       },
       {
         title: "four",
@@ -62,7 +62,7 @@ class SecondCarousel extends Component {
       {
         title: "five",
         id: "imgFive",
-        src: "/images/shop-img.png"
+        src: "/images/carousel-ad.png"
       }
    
     ];
