@@ -29,7 +29,7 @@ class BlurbSection extends Component {
                     Connect with Ana Maria Polo outisde of the courtroom.  He Dicho!!
                 </p>
 
-                <div>
+                <div className="mobile-only">
                 <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank">
                 <i className="fab fa-facebook-f"></i>
                 </a>
@@ -62,7 +62,7 @@ class BlurbSection extends Component {
                  Connect with Ana Maria Polo outisde of the courtroom.  He Dicho!!
              </p>
 
-             <div>
+             <div className="mobile-only">
              <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank">
              <i className="fab fa-facebook-f"></i>
              </a>
