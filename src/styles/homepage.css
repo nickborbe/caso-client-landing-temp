@@ -432,9 +432,10 @@
 }
 
 #join-club-wrapper p{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5em;
     margin: 20px 0;
+    width: 90%;
 }
 
 #join-club-wrapper form{
@@ -703,6 +704,23 @@
 }
 
 @Media only screen and (max-width: 775px){
+
+    #join-club-wrapper{
+        width: 90%;
+    }
+
+    #join-club-wrapper h2{
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+
+    #join-club-wrapper p{
+        width: 90%;
+        
+    }
+
+  
+   
 
 
 .vid-carousel-parent-div iframe{
