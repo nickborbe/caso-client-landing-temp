@@ -49,8 +49,8 @@ class ContestSection extends Component {
             {this.props.language === 'spanish' && 
                 <div id="contest-section-right-side">
                   <div className="contest-right-inner">
-                <h2>¡Inscríbete hoy para obtener la oportunidad de ganar un concurso de Ana Maria Polo!</h2>
-                <p>Para llegar a ser una figura prominente de la comunidad hispana es indispensable tener seguidores leales y dedicados. ¡Ana Maria Polo está organizando concursos para agradecerle a su fanaticada el apoyo brindado durante tantos años y por motivarla a hacer lo que tanto ama, ofrecer ayuda! Los afortunados ganadores serán incluidos en sus productos y plataformas de redes sociales, además de obtener obsequios. Obtenga más información sobre las reglas del concurso, aquí.</p>
+                <h2>¡Inscríbete a mis concursos!</h2>
+                <p>¡Ana Maria Polo concursos agradece a su fanaticada por el apoyo brindado durante tantos años! Obtenga más información sobre las reglas del concurso.</p>
                 <button>ENTER CONTEST</button>
                   </div>
                 </div>
