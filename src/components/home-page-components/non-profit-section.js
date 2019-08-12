@@ -17,8 +17,8 @@ class NonProfitSection extends Component {
         {this.props.language === 'english' && 
             <div className="non-prof-left-side" >
               <span>
-                <h2>Ana Maria Polo is giving back to the Humane Society for all the work they do!</h2>
-                <p>A life-long pet and animal lover, with five dogs of her own, Ana Maria Polo sought a philanthropic organization that aligns with her beliefs. The Humane Society, an American nonprofit organization, fights all forms of animal cruelty by taking on puppy mills, factory farms, trophy hunts, animal testing, and other cruel industries to achieve a humane society. Find out how Ana Maria Polo is doing her part to give back.</p>
+                <h2>TOGETHER LET'S HELP OTHERS!</h2>
+                <p>A life-long pet and animal lover, Ana Maria Polo sought a philanthropic organization that aligns with her beliefs. PETA Espanol, a nonprofit organization. Find out how Ana Maria Polo is doing her part to give back and join the support!</p>
                 <button id="nonprofbtn">Donate Today</button>
               </span>
             </div> 

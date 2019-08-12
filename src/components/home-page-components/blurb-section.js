@@ -56,10 +56,10 @@ class BlurbSection extends Component {
            
                 
              <p>
-                 Ana Maria Polo invites you to stay connected beyond the television screen.
-                 You will gain insight into her philanthropy work, lifestyle, and everyday passions. 
-                 Discover how she has dedicated her life's work helping different communities.
-                 Connect with Ana Maria Polo outisde of the courtroom.  He Dicho!!
+             Ana María Polo los invita a mantenerse conectados más allá de la pantalla de televisión. 
+             Conozca sobre su trabajo de filantropía, su estilo de vida y pasiones cotidianas.  
+             Descubran cómo ella ha dedicado su vida a ayudar a varias comunidades. 
+             ¡Conéctense con Ana María Polo fuera de la sala de audiencias! ¡He Dicho!
              </p>
 
              <div className="mobile-only">

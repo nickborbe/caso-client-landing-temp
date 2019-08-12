@@ -39,8 +39,8 @@ class ContestSection extends Component {
             {this.props.language === 'english' && 
                 <div id="contest-section-right-side">
                   <div className="contest-right-inner">
-                <h2>Sign up today for your chance to win an Ana Maria Polo contest! </h2>
-                <p>To become a prominent figure in the Hispanic community cannot be achieved without having many dedicated and loyal fans. Ana Maria Polo is hosting contests to give back to her fans that have given her so much support and motivated her for so many years to continue doing what she loves most!  The lucky winners will be featured on her products, social media platforms, and will receive giveaways. Find out more about contest rules and deadlines.</p>
+                <h2>SIGN UP TO MY LATEST CONTEST! </h2>
+                <p>Ana Maria Polo contests give back to her fans that have given her so much support and motivated her for so many years! Find out more about contest rules and deadlines.</p>
                 <button>ENTER CONTEST</button>
                   </div>
                 </div>
