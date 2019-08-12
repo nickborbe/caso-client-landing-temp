@@ -42,7 +42,7 @@ class HomePage extends Component {
 
         {/* <GalleryPreview /> */}
 
-        <JoinTheClub />
+        <JoinTheClub language={this.props.language} />
 
         <SponsoredAd />
 

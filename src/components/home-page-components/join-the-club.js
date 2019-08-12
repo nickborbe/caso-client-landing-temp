@@ -19,17 +19,28 @@ class JoinTheClub extends Component {
 
         <div id="join-the-club">
 
+      {this.props.language === 'english' && 
         <div id="join-club-wrapper">
 
-
         <h2>Join The Club!</h2>
-
-        <p>Suscríbase para obtener acceso a sus últimos videos y noticias, y sea el primero en conocer concursos y regalos exclusivos.</p>
-
+        <p>Subscribe to get access to her latest videos and news and be the first to know about exclusive contests and giveaways.</p>
 
         <MailchimpSubscribe url={url} />
-
         </div>
+      }
+
+      {this.props.language === 'spanish' && 
+        <div id="join-club-wrapper">
+
+        <h2>Join The Club!</h2>
+        <p>Suscríbase para obtener acceso a sus últimos videos y noticias, y sea el primero en conocer concursos y regalos exclusivos.</p>
+
+        <MailchimpSubscribe url={url} />
+        </div>
+      }
+
+
+
       </div>
         
       )
