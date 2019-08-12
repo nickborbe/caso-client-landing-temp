@@ -33,45 +33,53 @@ class FirstCarousel extends Component {
         title: "one",
         id: "videoOne",
         src: "/images/thumb-spotify.png",
+        link: 'https://open.spotify.com/album/59XwLYUogq8eGRNQYc8OWu',
       },
       {
         title: "two",
         id: "videoTwo",
         src: "/images/thumb2.png",
+        link: 'https://youtu.be/elphpwE3Z0o',
       },
       {
         title: "three",
         id: "videoThree",
         src: "/images/thumb3.png",
+        link: 'https://youtu.be/UZJxDAcaiwA',
       },
       {
         title: "four",
         id: "videoFour",
         src: "/images/thumb4.png",
+        link: 'https://youtu.be/1GDvpEiyX1c',
       },
       {
         title: "five",
         id: "videoFive",
         src: "/images/thumb5.png",
+        link: 'https://youtu.be/HzHV13hpKJk',
       },
       {
         title: "six",
         id: "videoSix",
-        src: "/images/thumb1.png"
+        src: "/images/thumb1.png",
+        link: 'https://youtu.be/dr5SvcHe3Gk',
       },
     ];
 
     let videoDivs = images.map(theImages => {
       return (
         <div className="carousel-iframe">
+          <a href={theImages.link} target="_blank">
                 <img
                   title={theImages.title}
                   id={theImages.id}
                   frameBorder="0"
                   className="video"
-   
+                  
                   src={theImages.src}
-                />
+                  />
+          </a>
                 </div>
       )
     })
