@@ -24,7 +24,7 @@ class JoinTheClub extends Component {
 
         <h2>Join The Club!</h2>
 
-        <p>Become an Ana Maria Polo insider. Subscribe to get access to her latest videos and news and be the first to know about exclusive contests and giveaways.</p>
+        <p>Suscríbase para obtener acceso a sus últimos videos y noticias, y sea el primero en conocer concursos y regalos exclusivos.</p>
 
 
         <MailchimpSubscribe url={url} />

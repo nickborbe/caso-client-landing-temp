@@ -26,8 +26,8 @@ class NonProfitSection extends Component {
         {this.props.language === 'spanish' && 
             <div className="non-prof-left-side" >
               <span>
-                <h2> ¡Ana Maria Polo está apoyando a la organización Humane Society por todo el trabajo que hacen!</h2>
-                <p>Ana Maria Polo ha sido una amante de las mascotas y animales durante toda su vida.  Ella vive con cinco perros los que la han motivado a buscar una organización filantrópica que se alinee con sus creencias. Humane Society es una organización estadounidense sin fines de lucro que lucha contra todas las formas de crueldad animal y enfrenta a fábricas de cachorros, granjas industriales, la práctica de cazar por trofeos, experimentos con animales y otras industrias crueles.  Su meta es lograr una sociedad más humana. Descubra lo que hace Ana Maria Polo para apoyarlos.</p>
+                <h2> ¡Juntos ayudemos a otros!</h2>
+                <p>Como amante de las mascotas y animales, Ana María Polo busco una organización filantrópica que se alinee con sus creencias- PETA Español una organización sin fines de lucro.  ¡Descubra cómo Ana María Polo está haciendo su parte y únanse al apoyo!</p>
                 <button id="nonprofbtn">Donate Today</button>
               </span>
             </div>
