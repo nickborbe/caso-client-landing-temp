@@ -269,6 +269,10 @@ i{
   display: none;
 }
 
+.expand{
+  display: none;
+}
+
 
 
 @Media only screen and (max-width: 700px){
@@ -316,6 +320,21 @@ i{
   color: white;
   text-decoration: none;
   letter-spacing: 0.1em;
+}
+
+#the-footer{
+  display: none;
+}
+
+#mobile-footer{
+  display: block;
+}
+
+#mobile-footer{
+  padding: 5%;
+  background-color: black;
+  color: white;
+  
 }
 
 

@@ -17,6 +17,7 @@ import NavBar from './components/layout-components/navbar';
 import Footer from './components/layout-components/footer'
 import Header from './components/layout-components/header'
 import HamburgerNav from "./components/layout-components/hamburger-nav";
+import MobileFooter from './components/layout-components/mobile-footer';
 
 
 
@@ -79,6 +80,7 @@ class App extends Component {
     </Switch>
 
       <Footer/>
+      <MobileFooter />
 
         
       </div>
