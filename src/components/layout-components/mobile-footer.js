@@ -16,8 +16,12 @@ class MobileFooter extends Component {
 
 
         
-        <div className="column">
-        <h6> Connect </h6>
+        <div className="footer-row">
+          {/* <span> */}
+        <h6> Connect</h6>
+        <h5>+</h5>
+
+          {/* </span> */}
         <div className="expand">
 
         <div>
@@ -32,6 +36,7 @@ class MobileFooter extends Component {
            <i className="fab fa-twitter"></i>
           <span>Twitter</span>
           </a>
+          
         </div>
 
         <div>
@@ -53,8 +58,9 @@ class MobileFooter extends Component {
         </div>
         </div>
 
-        <div className="column">
+        <div className="footer-row">
         <h6> Shop </h6>
+        <h5>+</h5>
         <div className="expand">
         <a>Ordering & Payment</a>
         <a>Shipping</a>
@@ -64,8 +70,9 @@ class MobileFooter extends Component {
 
         </div>
 
-        <div className="column">
+        <div className="footer-row">
         <h6> Information </h6>
+        <h5>+</h5>
         <div className="expand">
 
         <a>Privacy Policy</a>
