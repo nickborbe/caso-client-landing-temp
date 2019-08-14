@@ -279,13 +279,18 @@ i{
 
 
 @Media only screen and (max-width: 700px){
+
+  .hidden-in-mobile{
+    display: none;
+  }
+  .mobile-only{
+    display: block;
+  }
+
   #hp-header h1{
     font-size: 16px;
   }
 
-  .mobile-only{
-    display: block;
-  }
 
 .hp-navbar{
   display: none !important;
