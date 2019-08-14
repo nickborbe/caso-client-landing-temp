@@ -29,13 +29,13 @@
   }
 
   #press-top{
-    height: 450px;
+    height: 29vw;
     background: url('/images/press-top-bg.png');
     background-size: cover;
   }
 
   #press-bottom{
-    height: 420px;
+    height: 23vw;
     background: url('/images/press-bottom-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
