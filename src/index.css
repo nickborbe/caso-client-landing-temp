@@ -102,6 +102,7 @@ i{
 
 .fa-bars{
   color: black;
+  cursor: pointer;
 }
 
 .hp-header-left-icons{
@@ -275,6 +276,8 @@ i{
 
 
 
+
+
 @Media only screen and (max-width: 700px){
   #hp-header h1{
     font-size: 16px;
@@ -310,6 +313,7 @@ i{
   top: 10px;
   left: 25px;
   font-family: "NoirPro";
+  cursor: pointer;
 }
 
 
@@ -331,10 +335,32 @@ i{
 }
 
 #mobile-footer{
-  padding: 5%;
+  /* padding: 5%; */
   background-color: black;
   color: white;
   
+}
+
+.footer-row{
+  border-bottom: 0.5px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 5%;
+  
+}
+
+.footer-row h6{
+  font-size: 8px;
+}
+
+.footer-row h5{
+  font-family: Cambria;
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 0;
+  cursor: pointer;
 }
 
 
