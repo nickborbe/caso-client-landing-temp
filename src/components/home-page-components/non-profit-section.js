@@ -19,7 +19,7 @@ class NonProfitSection extends Component {
               <span>
                 <h2>TOGETHER LET'S HELP OTHERS!</h2>
                 <p>
-                  A life-long pet and animal lover, Ana Maria Polo sought a philanthropic organization that aligns with her beliefs. PETA Espanol, a nonprofit organization. 
+                 <span className="hide-when-tiny"> A life-long pet and animal lover, Ana Maria Polo sought a philanthropic organization that aligns with her beliefs. PETA Espanol, a nonprofit organization. </span>
                   Find out how Ana Maria Polo is doing her part to give back and join the support!
                   </p>
                 <button id="nonprofbtn">Donate Today</button>
@@ -30,7 +30,10 @@ class NonProfitSection extends Component {
             <div className="non-prof-left-side" >
               <span>
                 <h2> ¡Juntos ayudemos a otros!</h2>
-                <p>Como amante de las mascotas y animales, Ana María Polo busco una organización filantrópica que se alinee con sus creencias- PETA Español una organización sin fines de lucro.  ¡Descubra cómo Ana María Polo está haciendo su parte y únanse al apoyo!</p>
+                <p>
+                  <span className="hide-when-tiny">Como amante de las mascotas y animales, Ana María Polo busco una organización filantrópica que se alinee con sus creencias- PETA Español una organización sin fines de lucro.</span>
+                  ¡Descubra cómo Ana María Polo está haciendo su parte y únanse al apoyo!
+                  </p>
                 <button id="nonprofbtn">Donate Today</button>
               </span>
             </div>

@@ -197,7 +197,7 @@
     text-align: left;
     width: 50%;
     box-sizing: border-box;
-    overflow: scroll;
+    /* overflow: scroll; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -695,6 +695,10 @@
     } */
 
 
+    #non-prof-section{
+        height: 50vw;
+    }
+
 }
 
 
@@ -731,11 +735,29 @@
     .carousel-back .slick-next{
         margin: 0 0 0 10%;
     }
+
+ 
  
 
 }
 
 @Media only screen and (max-width: 775px){
+
+    #non-prof-section p{
+        font-size: 8px;
+    }
+
+    #non-prof-section h2{
+        font-size: 12px;
+    }
+
+    #non-prof-section button{
+        font-size: 8px;
+    }
+
+    #non-prof-section{
+        height: 50vw;
+    }
 
     #join-club-wrapper{
         width: 90%;
