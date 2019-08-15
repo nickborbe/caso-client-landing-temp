@@ -708,9 +708,18 @@
     #hp-carousel-ads img{
         height: 180px;
     }
-    .contest-section{
-        height: 400px;
-        overflow: scroll; 
+ 
+    .contest-section p{
+        font-size: 8px;
+        margin: 10px 0;
+    }
+
+    #contest-container{
+        margin-top: 50px;
+    }
+
+    .contest-section h2{
+        font-size: 12px;
     }
     
     .hide-when-tiny{
