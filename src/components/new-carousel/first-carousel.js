@@ -36,17 +36,18 @@ class FirstCarousel extends Component {
         link: 'https://youtu.be/dr5SvcHe3Gk',
       },
       {
-        title: "two",
-        id: "videoTwo",
-        src: "/images/thumb2.png",
-        link: 'https://youtu.be/elphpwE3Z0o',
-      },
-      {
         title: "one",
         id: "videoOne",
         src: "/images/thumb-spotify.png",
         link: 'https://open.spotify.com/album/59XwLYUogq8eGRNQYc8OWu',
       },
+      {
+        title: "two",
+        id: "videoTwo",
+        src: "/images/thumb2.png",
+        link: 'https://youtu.be/elphpwE3Z0o',
+      },
+
       {
         title: "three",
         id: "videoThree",
