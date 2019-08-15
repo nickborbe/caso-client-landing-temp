@@ -25,7 +25,7 @@ class HamburgerNav extends Component {
         {/* <div className=''> */}
         <Link to="/">HOME</Link>
         <a href='/contest'> CONTESTS </a>
-        <Link to="#">SHOP</Link>
+        <Link to="https://ana-maria-polo.myshopify.com">SHOP</Link>
         <Link to="/press">PRESS</Link>
         <Link to="/contact">CONTACT</Link>
         

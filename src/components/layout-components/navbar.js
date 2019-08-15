@@ -16,7 +16,7 @@ class NavBar extends Component {
         <nav className="hp-navbar">
         <a href='/contest'> CONTESTS </a>
         
-        <Link to="#">SHOP</Link>
+        <a href="https://ana-maria-polo.myshopify.com">SHOP</a>
         <Link to="/press">PRESS</Link>
         <Link to="/contact">CONTACT</Link>
       </nav>
