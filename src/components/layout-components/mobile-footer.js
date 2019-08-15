@@ -12,6 +12,8 @@ class MobileFooter extends Component {
     super(props)
     this.state = {
       connectExpanded: false,
+      shopExpanded: false,
+      infoExpanded: false,
     }
   }
 
@@ -99,15 +101,25 @@ class MobileFooter extends Component {
         <div className="footer-row">
           <span>
         <h6> Information </h6>
-        <h5>+</h5>
+        <h5 onClick={e=>this.toggleExpanded(e, 'infoExpanded')}>+</h5>
           </span>
-        <div className="expand">
+        <div className={this.state.infoExpanded? 'expanded' : 'expand'}>
 
-        <a>Privacy Policy</a>
-        <a>Terms & Conditions</a>
-        <a>Ad Choices</a>
-        <a>Contest Rules</a>
-        <a>Contact Us</a>
+        <div className="mob-foot-info">
+          <a>Privacy Policy</a>
+          </div>
+        <div className="mob-foot-info">
+          <a>Terms & Conditions</a>
+          </div>
+        <div className="mob-foot-info">
+          <a>Ad Choices</a>
+          </div>
+        <div className="mob-foot-info">
+          <a>Contest Rules</a>
+          </div>
+        <div className="mob-foot-info">
+          <a>Contact Us</a>
+          </div>
         </div>
         </div>
 
