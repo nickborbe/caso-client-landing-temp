@@ -352,6 +352,9 @@ i{
 
 .footer-row{
   border-bottom: 0.5px solid white;
+}
+
+.expanded{
   padding-bottom: 60px;
 }
 

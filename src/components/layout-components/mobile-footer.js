@@ -33,7 +33,7 @@ class MobileFooter extends Component {
 
 
         
-        <div className="footer-row">
+        <div className="footer-row ">
           <span>
         <h6> Connect</h6>
         <h5 onClick={e=>this.toggleExpanded(e, 'connectExpanded')}>+</h5>
