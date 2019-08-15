@@ -77,13 +77,21 @@ class MobileFooter extends Component {
         <div className="footer-row">
           <span>
         <h6> Shop </h6>
-        <h5>+</h5>
+        <h5 onClick={e=>this.toggleExpanded(e, 'shopExpanded')}>+</h5>
           </span>
-        <div className="expand">
-        <a>Ordering & Payment</a>
-        <a>Shipping</a>
-        <a>Returns</a>
-        <a>FAQ</a>
+        <div className={this.state.shopExpanded? 'expanded' : 'expand'}>
+        <div className="mob-foot-shop">
+          <a>Ordering & Payment</a>
+          </div>
+        <div className="mob-foot-shop">
+          <a>Shipping</a>
+          </div>
+        <div className="mob-foot-shop">
+          <a>Returns</a>
+          </div>
+        <div className="mob-foot-shop">
+          <a>FAQ</a>
+          </div>
         </div>
 
         </div>

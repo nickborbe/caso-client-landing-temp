@@ -368,10 +368,18 @@ i{
 }
 
 .mob-foot-connect{
-  width: 20%;
-  margin-left: 10%;
+
+  margin-left: 7%;
   
 }
+
+.mob-foot-shop{
+  margin-left: 7%;
+  text-align: left;
+  padding: 10px 0;
+}
+
+
 
 
 .mob-foot-connect > a{
