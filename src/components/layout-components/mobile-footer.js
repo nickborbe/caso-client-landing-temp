@@ -8,6 +8,23 @@ import '../../styles/css/all.css'
 
 
 class MobileFooter extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      connectExpanded: false,
+    }
+  }
+
+
+  toggleExpanded = (e, whichOne) =>{
+
+    this.setState({[whichOne]: !this.state[whichOne]})
+
+    e.target.innerHTML = e.target.innerHTML === '+'? 'x' : '+';
+
+  }
+
+
   render() {
       return(
 
@@ -19,10 +36,10 @@ class MobileFooter extends Component {
         <div className="footer-row">
           <span>
         <h6> Connect</h6>
-        <h5>+</h5>
+        <h5 onClick={e=>this.toggleExpanded(e, 'connectExpanded')}>+</h5>
 
           </span>
-        <div >
+        <div className={this.state.connectExpanded? 'expanded' : 'expand'} >
 
         <div className="mob-foot-connect">
           <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank" className="mobile-footer-social-link">
