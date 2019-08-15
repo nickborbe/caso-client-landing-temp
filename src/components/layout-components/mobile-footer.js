@@ -17,38 +17,37 @@ class MobileFooter extends Component {
 
         
         <div className="footer-row">
-          {/* <span> */}
+          <span>
         <h6> Connect</h6>
         <h5>+</h5>
 
-          {/* </span> */}
-        <div className="expand">
+          </span>
+        <div >
 
-        <div>
-          <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank" className="footer-social-link">
+        <div className="mob-foot-connect">
+          <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank" className="mobile-footer-social-link">
           <i className="fab fa-facebook-f"></i>
           <span>Facebook</span>
           </a>
           
         </div>
-        <div>
-        <a href="https://twitter.com/anapolotv?lang=en" target="_blank" className="footer-social-link">  
+        <div className="mob-foot-connect">
+        <a href="https://twitter.com/anapolotv?lang=en" target="_blank" className="mobile-footer-social-link">  
            <i className="fab fa-twitter"></i>
           <span>Twitter</span>
           </a>
           
         </div>
 
-        <div>
-
-          <a href="https://www.instagram.com/anapolotv/?hl=en" target="_blank" className="footer-social-link">  
+        <div className="mob-foot-connect">
+          <a href="https://www.instagram.com/anapolotv/?hl=en" target="_blank" className="mobile-footer-social-link">  
         <i className="fab fa-instagram"></i>
           <span>Instagram</span>
           </a>
 
         </div>
 
-        <div>
+        <div className="mob-foot-connect">
           <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank" className="footer-social-link"> 
         <i className="fab fa-youtube"></i>
           <span>YouTube</span>
@@ -59,8 +58,10 @@ class MobileFooter extends Component {
         </div>
 
         <div className="footer-row">
+          <span>
         <h6> Shop </h6>
         <h5>+</h5>
+          </span>
         <div className="expand">
         <a>Ordering & Payment</a>
         <a>Shipping</a>
@@ -71,8 +72,10 @@ class MobileFooter extends Component {
         </div>
 
         <div className="footer-row">
+          <span>
         <h6> Information </h6>
         <h5>+</h5>
+          </span>
         <div className="expand">
 
         <a>Privacy Policy</a>

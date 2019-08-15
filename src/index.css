@@ -352,12 +352,33 @@ i{
 
 .footer-row{
   border-bottom: 0.5px solid white;
+  padding-bottom: 60px;
+}
+
+.footer-row > span{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 3% 5%;
   
+}
+
+.mob-foot-connect{
+  width: 20%;
+  margin-left: 10%;
+  
+}
+
+
+.mob-foot-connect > a{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: white;
+  text-decoration: none;
+  font-family: "Noir Pro";
+  font-size: 11px;
 }
 
 .footer-row h6{
