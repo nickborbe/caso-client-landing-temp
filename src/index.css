@@ -373,13 +373,19 @@ i{
 
 .mob-foot-connect > a{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin: 15px 0;
   color: white;
   text-decoration: none;
   font-family: "Noir Pro";
   font-size: 11px;
 }
+
+.mob-foot-connect > a > i{
+  margin-right:10px;
+}
+
+
 
 .footer-row h6{
   font-size: 8px;
