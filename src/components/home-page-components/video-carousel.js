@@ -22,7 +22,9 @@ class VidCarousel extends Component {
 
             <div className="">
               <div className="box-1">
-                
+
+                <h2>See What's New</h2>
+
               
 
                 <FirstCarousel />
