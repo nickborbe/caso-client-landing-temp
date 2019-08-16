@@ -719,6 +719,11 @@
         font-size: 8px;
     }
 
+    .non-prof-left-side button{
+        position: relative;
+        right: 18%;
+    }
+
     #non-prof-section h2{
         font-size: 12px;
     }
@@ -729,6 +734,7 @@
 
     #non-prof-section{
         height: 60vw;
+        
     }
 
     #join-club-wrapper{
