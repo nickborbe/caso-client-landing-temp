@@ -26,7 +26,7 @@
 }
 
 .blurb-section{
-    background-color: white;
+    background-color: #fdfdf7;
     color: black;
     line-height: 2em;
     letter-spacing: 0.05em;
@@ -45,6 +45,10 @@
     color: black;
     margin: 8vw 1vw;
     font-size: 16px;
+}
+
+.blurb-inner p{
+    width: 42%;
 }
 
 .mid-page-hr{
@@ -83,14 +87,17 @@
 #contest-section-right-side button{
     margin: 10px 0;
     background-color: #4cb3b8;
-    font-family: "NoirPro"
+    font-family: "NoirPro";
+    font-size: 16px;
+    box-sizing: content-box;
+    padding: 10px 15px;
 }  
 #contest-section-right-side h2{
     color: white;
 }
 
 .contest-right-inner{
-    width: 80%;
+    width: 60%;
     padding-left: 10%;
 }
 
@@ -130,7 +137,7 @@
 /* ---------------------end contest section----------------- */
 
 .carousel-back {
-    background-color: white;
+    background-color: #fdfdf7;
     padding:0 12% 100px 12%;
 }
 
@@ -488,7 +495,7 @@
     padding-top: 50px;
     padding-bottom: 200px;
     background-size: 100%;
-    background-color: white;
+    background-color: #fdfdf7;
     background-position: 0% 18%;
     /* display: flex;
     justify-content: center;
@@ -521,6 +528,10 @@
 
 .box-1 img{
     width: 99%;
+}
+
+.box-1 h2{
+    font-size: 24px;
 }
 
 
