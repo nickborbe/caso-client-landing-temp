@@ -619,37 +619,9 @@
 }
 
 
-@Media only screen and (min-width: 1600px){
 
 
-  
 
-
-}
-
-@Media only screen and (min-width: 1700px){
- 
-  
-
-
-}
-
-@Media only screen and (min-width: 1800px){
- 
-}
-
-
-@Media only screen and (min-width: 2000px){
-  
-    #hp-carousel-ads img{
-        height: 440px;
-        margin-bottom: 5%;
-    }
-    #non-prof-section{
-        height: 700px;
-    }
- 
-}
 
 
 
@@ -658,19 +630,14 @@
     #hp-carousel-ads img{
         height: 300px;
     }
-    /* #non-prof-section{
-        height: 400px;
-    } */
-
+  
 }
 
 
 
 
 @Media only screen and (max-width: 1100px){
-    /* #non-prof-section{
-        height: 375px;
-    } */
+
     #hp-carousel-ads img{
         height: 225px;
     }
@@ -761,7 +728,7 @@
     }
 
     #non-prof-section{
-        height: 50vw;
+        height: 60vw;
     }
 
     #join-club-wrapper{
@@ -802,6 +769,9 @@
 
 @Media only screen and (max-width: 700px){
 
+    #non-prof-section{
+        height: 60vw;
+    }
 
 
 
