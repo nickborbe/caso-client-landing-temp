@@ -488,6 +488,13 @@
     align-items: center;
 }
 
+.landing-component input:nth-child(2){
+    position: relative;
+    bottom: 1px;
+}
+
+
+
 
 
 
