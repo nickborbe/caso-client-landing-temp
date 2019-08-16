@@ -113,7 +113,7 @@
 
 .row{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 50px 0;
     margin: 100px 10%;
 }

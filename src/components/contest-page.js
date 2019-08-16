@@ -9,6 +9,7 @@ import '../styles/contests.css'
 import SponsoredAd from './layout-components/sponsored-ad'
 
 import { buildUrl } from 'react-instafeed'
+import InstagramFeed from './instagram-feed/instagram-feed';
  
 // 🔥️ These are in your code (not this repo)
 // import useAbortableFetch from '@hooks/useAbortableFetch'
@@ -103,6 +104,7 @@ class ConestPage extends Component {
 
           <section id="conversation-section">
 
+            
         
             <h2>JOIN THE CONVERSATION</h2>
             <p>lorem ipsum sucre bayu losi rama weh anda re sep aluctum strea.  ave santum resitut lacerumtun ase les prolebre has ante tacitun romante lus don.90's artisan biodiesel meditation, shoreditch kinfolk beard keytar poutine fingerstache. Fingerstache humblebrag +1, aesthetic pinterest kogi celiac pop-up raclette asymmetrical shabby chic disrupt. Farm-to-table af try-hard, synth biodiesel vaporware church-key you probably haven't heard of them adaptogen lo-fi twee cold-pressed tilde occupy slow-carb. Blog woke iP</p>
@@ -115,9 +117,12 @@ class ConestPage extends Component {
         <div className="row">
 
         <div id="facebook-div" className="fb-page fb-column" data-href="https://www.facebook.com/AnaMariaPolo/" data-tabs="timeline" data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnaMariaPolo/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnaMariaPolo/">Ana Maria Polo</a></blockquote></div>
-
-      
         <div className="hide-when-tiny">
+         <InstagramFeed/>
+         </div>
+        <div className="hide-when-tiny">
+
+         
 
           <TwitterTimelineEmbed
             sourceType="profile"
