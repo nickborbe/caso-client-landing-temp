@@ -216,7 +216,7 @@
 }
 
 .non-prof-left-side > span{
-    width: 60%;
+    width: 52%;
 }
 
 .non-prof-left-side h2{
@@ -247,7 +247,8 @@
 #nonprofbtn{
     margin: 10px 0;
     background-color: #4cb3b8;
-    font-family: "NoirPro"
+    font-family: "NoirPro";
+    padding: 10px 5px;
 }
 
 #hp-sponsored-add-bottom{
