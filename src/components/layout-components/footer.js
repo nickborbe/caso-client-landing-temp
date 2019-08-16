@@ -20,6 +20,7 @@ class Footer extends Component {
         </div>
 
 
+        <section>
         
         <div className="column">
         <h6> Connect </h6>
@@ -72,6 +73,8 @@ class Footer extends Component {
         <a>Contest Rules</a>
         <a>Contact Us</a>
         </div>
+
+        </section>
 
         <form className="hide-when-teeny-tiny">
           <h6> Subscribe To Our Newsletter</h6>

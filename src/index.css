@@ -180,10 +180,19 @@ i{
   align-items: center;
 }
 
+#the-footer section{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 40%;
+
+}
+
 #the-footer a{
   color: white;
   text-decoration: none;
-  margin: 5px 0;
+  margin: 7.5px 0;
   font-size: 8px;
 }
 
@@ -223,6 +232,7 @@ i{
 
 #the-footer h6{
   font-size: 8px;
+  margin: 15px 0;
 }
 
 #the-footer input{
