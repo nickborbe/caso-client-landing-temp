@@ -252,11 +252,22 @@ i{
   background-color: #fdfdf7;
   color: black;
   width: 50px;
-  height: 40px;
+  height: 42px;
   padding: 5px 10px;
   border-radius: 3px;
   margin: 0px;
+  
 }
+
+
+.footer-input-button-wrapper > button{
+    position: relative;
+    top: 1px;
+    right: 2px;
+    height: 103%;
+}
+
+
 
 .fab{
   width: 25px;
