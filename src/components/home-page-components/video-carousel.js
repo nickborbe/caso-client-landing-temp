@@ -22,9 +22,9 @@ class VidCarousel extends Component {
 
             <div className="">
               <div className="box-1">
+                
               
 
-                {/* <SlickCarousel/> */}
                 <FirstCarousel />
     
               
