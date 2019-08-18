@@ -41,7 +41,9 @@ class ContestSection extends Component {
                   <div className="contest-right-inner">
                 <h2>SIGN UP TO MY LATEST CONTEST! </h2>
                 <p>Ana Maria Polo contests give back to her fans that have given her so much support and motivated her for so many years! Find out more about contest rules and deadlines.</p>
+               <a href="/contest">
                 <button>ENTER CONTEST</button>
+               </a>
                   </div>
                 </div>
             }
@@ -51,7 +53,9 @@ class ContestSection extends Component {
                   <div className="contest-right-inner">
                 <h2>¡Inscríbete a mis concursos!</h2>
                 <p>¡Ana Maria Polo concursos agradece a su fanaticada por el apoyo brindado durante tantos años! Obtenga más información sobre las reglas del concurso.</p>
+                <a href="/contest">
                 <button>ENTER CONTEST</button>
+                </a>
                   </div>
                 </div>
             }
