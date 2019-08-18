@@ -41,14 +41,15 @@
 }
 
 .bg-swerve{
-    background: url('/images/contest-swerve.png');
+    /* background: url('/images/contest-swerve.png'); */
+    background: white;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 #be-the-first-to-know-section{
     height: 220px;
-    /* background-color: #222; */
+    background-color: #363738;
     color: white;
     display: flex;
     flex-direction: column;
