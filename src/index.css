@@ -188,6 +188,16 @@ i{
   width: 40vw;
 }
 
+
+@Media only screen and (max-width: 1100px){
+  #the-footer section{
+
+    justify-content: space-evenly;
+  
+  }
+
+}
+
 #the-footer a{
   color: white;
   text-decoration: none;
