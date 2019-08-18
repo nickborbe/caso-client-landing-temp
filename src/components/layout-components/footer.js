@@ -13,7 +13,7 @@ class Footer extends Component {
 
         <footer id="the-footer">
 
-        <div className="hide-when-small" id="footer-img-contain">
+        <div id="footer-img-contain">
 
           <h4> ANA MARIA POLO</h4>
           
@@ -23,7 +23,7 @@ class Footer extends Component {
         <section>
         
         <div className="column">
-        <h6> Connect </h6>
+        <h5> Connect </h5>
         <div>
           <a href="https://www.facebook.com/AnaMariaPolo/" target="_blank" className="footer-social-link">
           <i className="fab fa-facebook-f"></i>
@@ -56,8 +56,8 @@ class Footer extends Component {
         
         </div>
 
-        <div className="column">
-        <h6> Shop </h6>
+        <div className="column hide-when-tiny">
+        <h5> Shop </h5>
         <a>Ordering & Payment</a>
         <a>Shipping</a>
         <a>Returns</a>
@@ -65,8 +65,8 @@ class Footer extends Component {
 
         </div>
 
-        <div className="column hide-when-tiny">
-        <h6> Information </h6>
+        <div className="column hide-when-small">
+        <h5> Information </h5>
         <a>Privacy Policy</a>
         <a>Terms & Conditions</a>
         <a>Ad Choices</a>
