@@ -50,7 +50,7 @@ class Footer extends Component {
         <div>
           <a href="https://www.youtube.com/user/DraPoloDigital" target="_blank" className="footer-social-link"> 
         <i className="fab fa-youtube"></i>
-          <span>You Tube</span>
+          <span>YouTube</span>
           </a>
         </div>
         
