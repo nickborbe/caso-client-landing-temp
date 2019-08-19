@@ -776,6 +776,14 @@
 
 @Media only screen and (max-width: 700px){
 
+    .box-1 .slick-center {
+        margin-left: 1%;
+    }
+
+    .first-carousel-wrapper div[aria-hidden='true']{
+        visibility: hidden;
+    }
+
     #non-prof-section{
         height: 60vw;
     }
@@ -789,6 +797,10 @@
   }
 
   @Media only screen and (max-width: 600px){
+
+
+
+    
 
 /* .carousel-back .slick-prev{
     margin: 0 0 10% 10%;
@@ -823,3 +835,12 @@
 
 
 
+
+
+  @Media only screen and (max-width: 600px){
+
+    .box-1 .slick-center {
+        margin-left: 1.35%;
+    }
+
+  }
