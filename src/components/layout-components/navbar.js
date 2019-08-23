@@ -14,11 +14,27 @@ class NavBar extends Component {
       return(
 
         <nav className="hp-navbar">
-        <a href='/contest'> CONTESTS </a>
+        <a href='/contest'> 
+        {this.props.language ==='english' && 'CONTESTS'}
+        {this.props.language ==='spanish' && 'CONCURSOS'}
         
-        <a href="https://ana-maria-polo.myshopify.com">SHOP</a>
-        <Link to="/press">PRESS</Link>
-        <Link to="/contact">CONTACT</Link>
+         </a>
+        
+        <a href="https://ana-maria-polo.myshopify.com">
+        {this.props.language ==='english' && 'SHOP'}
+        {this.props.language ==='spanish' && 'COMPRA'}
+          </a>
+
+        <Link to="/press">
+        {this.props.language ==='english' && 'PRESS'}
+        {this.props.language ==='spanish' && 'ARTICULOS'}
+          </Link>
+
+
+        <Link to="/contact">
+        {this.props.language ==='english' && 'CONTACT'}
+        {this.props.language ==='spanish' && 'CONTACTO'}
+          </Link>
       </nav>
         
       )

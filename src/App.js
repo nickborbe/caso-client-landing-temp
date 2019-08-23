@@ -61,7 +61,7 @@ class App extends Component {
     toggleMobileNav = {this.toggleMobileNav}
     changeLanguage = {this.switchLanguage}/>
 
-    <NavBar/>
+    <NavBar language={this.state.language} />
 
     {this.state.mobileNavShowing &&
     <HamburgerNav

@@ -26,6 +26,14 @@
     text-align: left;
 
 }
+#contest-left-side button{
+    background-color: #40B3B7;
+    color: white;
+    font-family: "Noir Pro";
+    
+}
+
+
 
 .contest-left-side-inner{
     width: 60%;
