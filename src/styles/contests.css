@@ -1,5 +1,5 @@
 #contest-image-section{
-    background-color: #caa453;
+    /* background-color: #caa453; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,12 +17,27 @@
   }
   
 
-#contest-right-side{
-    padding: 2% 5%;
+#contest-left-side{
+    padding-left:8%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     text-align: left;
 
+}
+
+.contest-left-side-inner{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flext-start;
+    text-align: left;
+}
+
+.contest-left-side-inner p{
+    width: 100%;
 }
 
 #contest-right-side h2{
