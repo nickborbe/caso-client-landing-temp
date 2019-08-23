@@ -11,6 +11,12 @@
     height: 100%;
 }
 
+.row > .social-column {
+
+    margin: 0 2%;
+  }
+  
+
 #contest-right-side{
     padding: 2% 5%;
     display: flex;
