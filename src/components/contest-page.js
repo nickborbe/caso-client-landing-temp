@@ -34,40 +34,6 @@ class ConestPage extends Component {
       userId: 'anapolotv'
     }
 
-    // const Instagram = () => {
-    //   console.log("ahhhhh")
-    //   const { json, loading, error, abort } = useAbortableFetch(buildUrl(options))
-    //   if (loading) return 'Loading...'
-    //   if (error) return `Error: ${error}`
-    //   if (!json) return null
-     
-    //   const { data, meta, pagination } = json
-     
-    //   return (
-    //     <Fragment>
-    //       {// eslint-disable-next-line no-unused-vars
-    //       data &&
-    //         data.map(({ caption, id, images, tags }, index) => {
-    //           const image = images[options.resolution]
-    //           return (
-    //               <Image
-    //                 key={index}
-    //                 url={image.url}
-    //                 title={caption.text}
-    //                 caption={caption.text}
-    //                 width={image.width}
-    //                 height={image.height}
-    //               />
-    //             // </div>
-    //           )
-    //         })}
-    //     </Fragment>
-    //   )
-    // }
-
-
-
-
 
 
 
@@ -116,27 +82,29 @@ class ConestPage extends Component {
 
         <div className="row">
 
-        <div id="facebook-div" className="fb-page fb-column" data-href="https://www.facebook.com/AnaMariaPolo/" data-tabs="timeline" data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnaMariaPolo/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnaMariaPolo/">Ana Maria Polo</a></blockquote></div>
-        <div className="hide-when-tiny">
+          <div className="social-column">
+        <div id="facebook-div" className="fb-page fb-column blah" data-href="https://www.facebook.com/AnaMariaPolo/" data-tabs="timeline" data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnaMariaPolo/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnaMariaPolo/">Ana Maria Polo</a></blockquote></div>
+          </div>
+
+
+       
+        <div className="hide-when-tiny social-column">
          <InstagramFeed/>
          </div>
-        <div className="hide-when-tiny">
 
-         
 
+        <div className="hide-when-tiny social-column hide-when-small">
+
+      
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="anapolotv"
             options={{height: 700, width: 300}}
-            />
-        </div>
+            /> 
+         </div>
 
 
-        {/* <div className="blahTastic">
-          <h2>Hello</h2>
-        {/*  {Instagram()} */}
-        
-        {/* </div> */} 
+   
          
 
 
