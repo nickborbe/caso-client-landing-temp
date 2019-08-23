@@ -41,6 +41,22 @@ class ConestPage extends Component {
 
       <div>
 
+        <section id="be-the-first-to-know-section">
+
+        <h2>BE THE FIRST TO KNOW ABOUT GIVEAWAYS</h2>
+
+        <p>A Short description about the contest or giveaway. This could decribe what to expect from the contest and hopefully leave the user wanting to learn more and register</p>
+
+        <form>
+          <input placeholder="Email Address"></input>
+          <button>Subscribe</button>
+        </form>
+
+        </section>
+
+
+
+
         <section id="contest-image-section">
         <img src="/images/nonprofit-section.png" id="contest-image" className="hide-when-tiny" />
 
@@ -55,18 +71,7 @@ class ConestPage extends Component {
 
         <div className="bg-swerve">
 
-          <section id="be-the-first-to-know-section">
-
-          <h2>BE THE FIRST TO KNOW ABOUT GIVEAWAYS</h2>
-
-          <p>A Short description about the contest or giveaway. This could decribe what to expect from the contest and hopefully leave the user wanting to learn more and register</p>
-
-          <form>
-            <input placeholder="Email Address"></input>
-            <button>Subscribe</button>
-          </form>
-
-          </section>
+  
 
           <section id="conversation-section">
 
