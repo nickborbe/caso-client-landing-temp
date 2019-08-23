@@ -534,13 +534,27 @@
     right: -10%;
 }
 
-.box-1 img{
+.box-1 img, .box-1 video{
     width: 99%;
 }
+
+ .box-1 video{
+     height: 28vw;
+     position: relative;
+     bottom: 3vw;
+     outline: 0.5px;  
+}
+
 
 .box-1 h2{
     font-size: 24px;
 }
+
+video::-webkit-media-controls-panel {
+    display: flex !important;
+    opacity: 1 !important;
+}
+
 
 
 .box-1 .slick-list { 

@@ -85,6 +85,14 @@ class FirstCarousel extends Component {
       )
     })
 
+    videoDivs.unshift(
+        <div className="carousel-iframe">
+        <video controls poster="/images/vid-thumb.jpg">
+          <source src="/images/the-video.mp4" type="video/mp4" />
+        </video>
+        </div>
+      )
+
     return (
       <div className="first-carousel-wrapper">
         <Slider {...settings}>
